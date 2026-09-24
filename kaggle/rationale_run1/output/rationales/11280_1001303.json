@@ -1,0 +1,29 @@
+{
+  "case_id": "11280_1001303",
+  "lesion_present": true,
+  "marksheet_pirads": "4,3",
+  "lesion_volume_mm3": 1161.2,
+  "lesion_volume_cc": 1.161,
+  "zone_location": "PZ",
+  "zone_pz_fraction": 1.0,
+  "zone_tz_fraction": 0.0,
+  "t2w_intensity_zscore": -0.674,
+  "shape_sphericity": 0.451,
+  "extraprostatic_extension": false,
+  "frac_lesion_outside_gland": 0.041,
+  "predicted_pirads": 3,
+  "rationale_text": "Case 11280_1001303: a 1.16 cc lesion in the peripheral zone is moderately hypointense on T2W (z=-0.67 relative to same-zone background tissue) with irregular, ill-defined (sphericity=0.45) margins. These measurements are consistent with PI-RADS category 3. Note: this dataset is biparametric (no DCE sequence available); real PI-RADS v2.1 would use DCE as a tie-breaker for a peripheral-zone category-3 lesion (early enhancement can upgrade PZ-3 to PZ-4) -- that assessment cannot be made here, so this category should be treated as a lower bound, not a confirmed 3.",
+  "defect_check": {
+    "gland_voxels": 367655,
+    "lesion_voxels": 6406,
+    "frac_lesion_in_gland": 0.959,
+    "centroid_distance_mm": 22.6,
+    "gland_equiv_radius_mm": 25.2,
+    "checks": {
+      "gland_nonempty": true,
+      "lesion_matches_label": true,
+      "lesion_mostly_in_gland": true,
+      "lesion_centroid_near_gland": true
+    }
+  }
+}

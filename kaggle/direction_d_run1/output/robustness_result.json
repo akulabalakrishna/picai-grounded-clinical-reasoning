@@ -1,0 +1,151 @@
+{
+  "summary": {
+    "n_cases": 20,
+    "mean_clean_dice": 0.3917340580944438,
+    "mean_dice_gaussian_noise": 0.381039500701341,
+    "mean_dice_gaussian_blur": 0.39766628204933585,
+    "mean_dice_intensity_shift": 0.39053467543055637
+  },
+  "per_case": [
+    {
+      "case_id": "10486_1000494",
+      "clean_dice": 0.34507667024930316,
+      "dice_gaussian_noise": 0.3159993638594945,
+      "dice_gaussian_blur": 0.3252447545528412,
+      "dice_intensity_shift": 0.3478623628616333
+    },
+    {
+      "case_id": "11357_1001380",
+      "clean_dice": 0.0,
+      "dice_gaussian_noise": 0.0,
+      "dice_gaussian_blur": 0.0,
+      "dice_intensity_shift": 0.0
+    },
+    {
+      "case_id": "10730_1000746",
+      "clean_dice": 0.7444860994815826,
+      "dice_gaussian_noise": 0.7416201204061508,
+      "dice_gaussian_blur": 0.766175851225853,
+      "dice_intensity_shift": 0.7439925581216812
+    },
+    {
+      "case_id": "11074_1001096",
+      "clean_dice": 0.6000970244407654,
+      "dice_gaussian_noise": 0.5951836943626404,
+      "dice_gaussian_blur": 0.4024763911962509,
+      "dice_intensity_shift": 0.6017899334430694
+    },
+    {
+      "case_id": "10634_1000650",
+      "clean_dice": 0.4271941753104329,
+      "dice_gaussian_noise": 0.4316628519445658,
+      "dice_gaussian_blur": 0.31055007223039865,
+      "dice_intensity_shift": 0.42461166717112064
+    },
+    {
+      "case_id": "10019_1000019",
+      "clean_dice": 0.13135747984051704,
+      "dice_gaussian_noise": 0.12541794031858444,
+      "dice_gaussian_blur": 0.0,
+      "dice_intensity_shift": 0.13070280104875565
+    },
+    {
+      "case_id": "11471_1001495",
+      "clean_dice": 0.7031445503234863,
+      "dice_gaussian_noise": 0.6983381509780884,
+      "dice_gaussian_blur": 0.7158408959706625,
+      "dice_intensity_shift": 0.6996334195137024
+    },
+    {
+      "case_id": "11373_1001396",
+      "clean_dice": 0.20327626913785934,
+      "dice_gaussian_noise": 0.1884111389517784,
+      "dice_gaussian_blur": 0.38092127442359924,
+      "dice_intensity_shift": 0.20104775577783585
+    },
+    {
+      "case_id": "10117_1000117",
+      "clean_dice": 0.1529424451291561,
+      "dice_gaussian_noise": 0.13505886495113373,
+      "dice_gaussian_blur": 0.15929367393255234,
+      "dice_intensity_shift": 0.1545241686205069
+    },
+    {
+      "case_id": "10484_1000492",
+      "clean_dice": 0.7651501099268595,
+      "dice_gaussian_noise": 0.7528821031252543,
+      "dice_gaussian_blur": 0.6769375801086426,
+      "dice_intensity_shift": 0.7639244397481283
+    },
+    {
+      "case_id": "11446_1001470",
+      "clean_dice": 0.5808084666728973,
+      "dice_gaussian_noise": 0.5913234353065491,
+      "dice_gaussian_blur": 0.24109712932258845,
+      "dice_intensity_shift": 0.5803572237491608
+    },
+    {
+      "case_id": "10635_1000651",
+      "clean_dice": 0.14623574912548065,
+      "dice_gaussian_noise": 0.13307100534439087,
+      "dice_gaussian_blur": 0.40269750356674194,
+      "dice_intensity_shift": 0.14497621357440948
+    },
+    {
+      "case_id": "10942_1000961",
+      "clean_dice": 0.3831004723906517,
+      "dice_gaussian_noise": 0.3384915068745613,
+      "dice_gaussian_blur": 0.5933788269758224,
+      "dice_intensity_shift": 0.3818156197667122
+    },
+    {
+      "case_id": "10798_1000814",
+      "clean_dice": 0.79515141248703,
+      "dice_gaussian_noise": 0.8046404634203229,
+      "dice_gaussian_blur": 0.6985434762069157,
+      "dice_intensity_shift": 0.795769031558718
+    },
+    {
+      "case_id": "11080_1001102",
+      "clean_dice": 0.4755241870880127,
+      "dice_gaussian_noise": 0.4656225204467773,
+      "dice_gaussian_blur": 0.5236786365509033,
+      "dice_intensity_shift": 0.468143230676651
+    },
+    {
+      "case_id": "10901_1000917",
+      "clean_dice": 0.00020345880184322596,
+      "dice_gaussian_noise": 0.0003144129412248731,
+      "dice_gaussian_blur": 0.001152263395488262,
+      "dice_intensity_shift": 0.00013831258984282614
+    },
+    {
+      "case_id": "10985_1001004",
+      "clean_dice": 0.5187737286090851,
+      "dice_gaussian_noise": 0.49509143829345703,
+      "dice_gaussian_blur": 0.5202093183994293,
+      "dice_intensity_shift": 0.5176174581050873
+    },
+    {
+      "case_id": "10012_1000012",
+      "clean_dice": 0.2647185381501913,
+      "dice_gaussian_noise": 0.23636888526380062,
+      "dice_gaussian_blur": 0.4420487657189369,
+      "dice_intensity_shift": 0.26031349040567875
+    },
+    {
+      "case_id": "10048_1000048",
+      "clean_dice": 0.5974403247237206,
+      "dice_gaussian_noise": 0.5712921172380447,
+      "dice_gaussian_blur": 0.7930792272090912,
+      "dice_intensity_shift": 0.5934738218784332
+    },
+    {
+      "case_id": "10975_1000994",
+      "clean_dice": 0.0,
+      "dice_gaussian_noise": 0.0,
+      "dice_gaussian_blur": 0.0,
+      "dice_intensity_shift": 0.0
+    }
+  ]
+}

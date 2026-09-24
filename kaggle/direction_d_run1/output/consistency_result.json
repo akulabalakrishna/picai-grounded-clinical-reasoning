@@ -1,0 +1,6314 @@
+{
+  "summary": {
+    "n_cases": 421,
+    "n_any_mismatch": 386,
+    "mismatch_rate": 0.9168646080760094,
+    "n_lesion_present_mismatch": 220,
+    "n_zone_mismatch": 85,
+    "n_shape_mismatch": 138
+  },
+  "per_case": [
+    {
+      "case_id": "10000_1000000",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.13859765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10001_1000001",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.01935546875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10002_1000002",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.52081640625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10003_1000003",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.35194921875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10004_1000004",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.6426796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10005_1000005",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.705,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.8094765625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10006_1000006",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.89712109375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10007_1000007",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.16248828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10009_1000009",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.95570703125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10010_1000010",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.92429296875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10011_1000011",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.9604609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10012_1000012",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.637,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 26.69635546875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10014_1000014",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.74583203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10015_1000015",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.92870703125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10016_1000016",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.686390625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10017_1000017",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 16.02713671875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10018_1000018",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.20055078125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10019_1000019",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.833,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.6083984375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10020_1000020",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.9707890625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10021_1000021",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.73,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": false,
+        "lesion_volume_cc": 13.19878125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10022_1000022",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.293796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10023_1000023",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 18.8983125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10024_1000024",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.25755859375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10025_1000025",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.930140625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10026_1000026",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.87044140625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10027_1000027",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.60892578125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10028_1000028",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.796828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10030_1000030",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.58051171875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10031_1000031",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.11185546875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10032_1000032",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.723,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.893703125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10033_1000033",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.3993046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10034_1000034",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.50719921875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10035_1000035",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.5480234375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10037_1000037",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.64996484375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10038_1000038",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.43173828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10039_1000039",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.20298828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10040_1000040",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.731,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.6799140625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10041_1000041",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.67433203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10042_1000042",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.5795
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10043_1000043",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.694,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": false,
+        "lesion_volume_cc": 12.6218671875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10045_1000045",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.329171875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10046_1000046",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.02068359375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10047_1000047",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.07715625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10048_1000048",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.699,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.6096171875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10049_1000049",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.100625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10051_1000051",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.33935546875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10052_1000052",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.65369921875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10054_1000054",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.31292578125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10055_1000055",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.61426171875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10056_1000056",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.572859375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10057_1000057",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.54723828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10058_1000058",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.27786328125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10059_1000059",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.623,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 17.128125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10060_1000060",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.73949609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10061_1000061",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.24374609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10062_1000062",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.68428125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10063_1000063",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.64019921875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10064_1000064",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.67937890625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10065_1000065",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.915578125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10066_1000066",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.45837109375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10067_1000067",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.3202578125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10068_1000068",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.52998828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10069_1000069",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.195859375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10070_1000070",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 14.2283671875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10071_1000071",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.43058203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10072_1000072",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.5560859375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10073_1000073",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.3676171875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10074_1000074",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.426,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.46323046875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10075_1000075",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.6888203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10076_1000076",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 15.076125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10077_1000077",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.08633203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10079_1000079",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.68,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.80046484375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10080_1000080",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.62575390625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10081_1000081",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.0141953125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10082_1000082",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.9940546875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10083_1000083",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.91426171875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10084_1000084",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.37647265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10085_1000085",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.59,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.42948828125
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10086_1000086",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.14144921875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10087_1000087",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.3784296875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10088_1000088",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.307125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10089_1000089",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 17.6158125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10090_1000090",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.060125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10091_1000091",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.2040390625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10092_1000092",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.96683984375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10093_1000093",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.65259765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10095_1000095",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.019046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10096_1000096",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.5561484375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10097_1000097",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.527,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.3737421875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10098_1000098",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.22491796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10099_1000099",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.038765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10101_1000101",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.39250390625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10102_1000102",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.021890625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10103_1000103",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.666,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.7306953125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10105_1000105",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.3306484375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10107_1000107",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.794,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.41692578125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10108_1000108",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.08497265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10109_1000109",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.20033984375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10111_1000111",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.54391015625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10113_1000113",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.58672265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10114_1000114",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.23124609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10115_1000115",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.77762109375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10116_1000116",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.56194140625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10117_1000117",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.588,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.0732578125
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10118_1000118",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.7,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.12762890625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10119_1000119",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.58087890625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10120_1000120",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.4632734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10121_1000121",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.666,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.790078125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10122_1000122",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.55403515625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10123_1000123",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.302328125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10124_1000124",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.94489453125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10125_1000125",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.44308984375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10126_1000126",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.9943125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10127_1000127",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.8974375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10128_1000128",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.32511328125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10129_1000129",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.32084375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10129_1000130",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.83158984375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10130_1000131",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.02855078125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10131_1000132",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.7623828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10131_1000133",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.52702734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10133_1000135",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.05727734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10134_1000136",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.616,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.09846484375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10136_1000138",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.19433203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10137_1000139",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.27495703125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10138_1000140",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.31684765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10139_1000141",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.202765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10141_1000143",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.72669140625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10142_1000144",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 19.50328125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10143_1000145",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.82824609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10144_1000146",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.5011484375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10145_1000147",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.56575390625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10146_1000148",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.9638828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10147_1000149",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.128734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10149_1000151",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 14.47653515625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10150_1000152",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.54701953125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10151_1000153",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 19.1546015625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10152_1000154",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.8240390625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10153_1000155",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.93857421875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10153_1000156",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.71065234375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10154_1000157",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.566796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10155_1000158",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.37446875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10156_1000159",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.70565625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10157_1000160",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.789,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.02088671875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10158_1000161",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.03796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10159_1000162",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.4921171875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10160_1000163",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.46892578125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10161_1000164",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.2027109375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10162_1000165",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.44228515625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10163_1000166",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.73844140625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10164_1000167",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.64,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.64130859375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10165_1000168",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.39894140625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10166_1000169",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.759859375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10167_1000170",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.32073046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10169_1000172",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.23577734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10172_1000175",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.01730078125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10173_1000176",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.6374140625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10174_1000177",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.379484375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10175_1000178",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.1084296875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10176_1000179",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.39899609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10177_1000180",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.673421875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10178_1000181",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.69498828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10179_1000182",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.59253125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10184_1000187",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.2482265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10187_1000190",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.80784375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10188_1000191",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.95902734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10191_1000194",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.8954375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10194_1000198",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.708015625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10195_1000199",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.83995703125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10197_1000201",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.49028125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10199_1000203",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.68338671875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10200_1000204",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.80256640625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10201_1000205",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.3746796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10208_1000212",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.58614453125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10210_1000214",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.78384375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10211_1000215",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.733,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 12.66046875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10213_1000217",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.3968828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10215_1000219",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.40352734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10216_1000220",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.794,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 12.94744921875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10217_1000221",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.96883984375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10218_1000222",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.30048828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10219_1000223",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.20673046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10220_1000224",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.599,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.915578125
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10221_1000225",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.07272265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10222_1000226",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.44346484375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10223_1000227",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.15637109375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10227_1000231",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.58504296875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10230_1000234",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.07377734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10233_1000237",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.629,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 24.76353515625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10234_1000238",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.77,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.870171875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10238_1000242",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.6718359375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10241_1000245",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.676,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.80794921875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10242_1000246",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.69551953125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10243_1000247",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.8755
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10244_1000248",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.334765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10245_1000249",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.4378046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10248_1000252",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.407640625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10252_1000256",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.608,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 14.18428125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10253_1000257",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.65955078125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10254_1000258",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.55266015625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10257_1000261",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.697,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.53984765625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10259_1000263",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.72927734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10262_1000266",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.663,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 24.7064765625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10263_1000267",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.1958046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10265_1000269",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.53905078125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10266_1000270",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 14.282578125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10267_1000271",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.19466015625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10268_1000272",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.561,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.02965625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10270_1000274",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.01239453125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10274_1000279",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.645,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 12.1358671875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10275_1000280",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.4765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10276_1000281",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.91864453125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10277_1000282",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.29315625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10278_1000283",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.15546875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10281_1000286",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.5053046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10281_1000287",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 21.43789453125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10285_1000291",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.47709765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10286_1000292",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.42013671875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10289_1000295",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.578,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.5038828125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10295_1000301",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.28598046875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10296_1000302",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.539640625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10299_1000305",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.59753515625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10301_1000307",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.28430859375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10302_1000308",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.31683203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10304_1000310",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.735,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.4938671875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10305_1000311",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.39668359375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10307_1000313",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.99178125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10308_1000314",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.73691015625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10313_1000319",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.5341484375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10315_1000321",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.590375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10317_1000323",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.5768203125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10319_1000325",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.2729609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10320_1000326",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 13.63573828125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10321_1000327",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.460796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10322_1000328",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.8,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.67737890625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10328_1000334",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 16.515984375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10329_1000335",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.625,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.21390234375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10330_1000336",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.36181640625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10331_1000337",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 16.62050390625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10336_1000342",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.07763671875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10338_1000344",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.599,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.01640625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10339_1000345",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.722,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 20.8142578125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10340_1000346",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.683,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.85414453125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10341_1000347",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.6935625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10342_1000348",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.562,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.7131484375
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10344_1000350",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 14.52230859375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10349_1000355",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 15.15638671875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10350_1000356",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.784,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.57359765625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10353_1000359",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.677796875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10356_1000362",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.41201953125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10362_1000368",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.9109453125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10363_1000369",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.39144921875
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10368_1000374",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.772,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.523828125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10370_1000376",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 18.56872265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10372_1000378",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.465,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.81518359375
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10373_1000379",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.48659765625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10374_1000380",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.248328125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10380_1000386",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.691,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 13.3517109375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10381_1000387",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.05247265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10383_1000389",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.666,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 28.43321484375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10385_1000391",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.06155078125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10387_1000393",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.20276953125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10389_1000395",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.5237734375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10390_1000396",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.514,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.65691796875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10392_1000398",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.608,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.26246875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10398_1000404",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.607,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.0611875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10405_1000412",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.712,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.323640625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10417_1000424",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.92053125
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10417_1000425",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.78122265625
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10418_1000426",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.641,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.81337890625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10424_1000432",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.489,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.2513515625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10425_1000433",
+      "rationale_lesion_present": false,
+      "rationale_zone": "none",
+      "rationale_shape_sphericity": null,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.49149609375
+      },
+      "mismatches": [
+        "lesion_present"
+      ]
+    },
+    {
+      "case_id": "10434_1000442",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.586,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.99489453125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10442_1000450",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.569,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 15.54767578125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10451_1000459",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.807,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.13801171875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10463_1000471",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.696,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.9683671875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10473_1000481",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.634,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.0404609375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10484_1000492",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.743,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.13780859375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10486_1000494",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.716,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.635453125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10490_1000499",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.5,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.4601640625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10503_1000512",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.647,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.940953125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10522_1000532",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.391,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 37.72901953125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10523_1000533",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.665,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 24.785578125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10526_1000536",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.606,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.91653125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10529_1000539",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.749,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.36098828125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10539_1000549",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.687,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 14.981625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10540_1000551",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.552,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 22.0284140625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10548_1000560",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.663,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.68064453125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10558_1000570",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.747,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.6161015625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10568_1000580",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.673,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.150984375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10570_1000582",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.74,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 14.48539453125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10589_1000603",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.549,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.78443359375
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10604_1000618",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.825,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.75391015625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10607_1000621",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.775,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.64848046875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10620_1000634",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.75,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.6355703125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10634_1000650",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.603,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.5678515625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10635_1000651",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.847,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.39293359375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10637_1000653",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.73,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.0260625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10641_1000657",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.775,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.6966875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10665_1000681",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.523,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.24453515625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10668_1000684",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.494,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.3433125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10670_1000686",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.577,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 13.76124609375
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10688_1000704",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.552,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.4821015625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10699_1000715",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.71,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.83326953125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10700_1000716",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.879,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.29658203125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10707_1000723",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.777,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.20620703125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10721_1000737",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.761,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.9736953125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10726_1000742",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.745,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.65033203125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10728_1000744",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.435,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.72141015625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10730_1000746",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.713,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 21.9275859375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10743_1000759",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.548,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.26336328125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10777_1000793",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.692,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.88120703125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10798_1000814",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.564,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 20.8121484375
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10804_1000820",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.687,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.08971484375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10807_1000823",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.591,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 21.9064921875
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10808_1000824",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.502,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.77383203125
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10825_1000841",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.485,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 24.16362890625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10833_1000849",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.723,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.48758984375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10834_1000850",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.686,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 19.6275234375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10836_1000852",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.675,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.79899609375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10839_1000855",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.75,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.33133984375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10842_1000858",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.478,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 34.056703125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10867_1000883",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.558,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.70374609375
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10868_1000884",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.746,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.73458984375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10872_1000888",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.693,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.119609375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10880_1000896",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.669,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.10157421875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10885_1000901",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.529,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.45035546875
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10888_1000904",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.731,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.2018203125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10901_1000917",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.43,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.88013671875
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10910_1000927",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.511,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.827515625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10911_1000928",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.628,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.532203125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10915_1000932",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.825,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.04583203125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10920_1000937",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.618,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.11944921875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10921_1000938",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.62,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.0787890625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10925_1000942",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.442,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 36.1951875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10932_1000949",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.809,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.75826953125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10938_1000957",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.499,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 21.954796875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "10942_1000961",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.778,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 12.1886015625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10948_1000967",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.533,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.657671875
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10953_1000972",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.745,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.1658046875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10957_1000976",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.766,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.049578125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10961_1000980",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.702,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.8732890625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10964_1000983",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.751,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.72759375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10968_1000987",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.629,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.3417890625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10970_1000989",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.488,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.4439765625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "10975_1000994",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.748,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 0.8388984375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "10985_1001004",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.594,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.59691015625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11002_1001021",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.713,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.7792734375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11032_1001052",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.651,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 18.46388671875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11039_1001059",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.453,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 44.80238671875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11041_1001061",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.644,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.7965078125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11049_1001069",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.786,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.48680078125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11063_1001085",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.746,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.67737890625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11068_1001090",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.643,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.982609375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11074_1001096",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.608,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.00406640625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11076_1001098",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.788,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.1572578125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11080_1001102",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.667,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.17302734375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11086_1001108",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.732,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.18732421875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11100_1001123",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.525,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 35.23616015625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11102_1001125",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.6,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.5732890625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11114_1001137",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.473,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.15208984375
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11122_1001145",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.682,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 12.63905859375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11130_1001153",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.567,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.98498828125
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11137_1001160",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.686,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.85815234375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11149_1001172",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.693,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.42926171875
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11152_1001175",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.526,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.04504296875
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11154_1001177",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.663,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.00755078125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11155_1001178",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.676,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.9993828125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11162_1001185",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.581,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.46534375
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11163_1001186",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.735,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.00101953125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11165_1001188",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.752,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.2784453125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11168_1001191",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.637,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.06272265625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11174_1001197",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.546,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.12911328125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11177_1001200",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.53,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.91352734375
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11181_1001204",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.651,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.7300078125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11185_1001208",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.537,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.609296875
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11186_1001209",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.635,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 18.60120703125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11188_1001211",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.581,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.4100703125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11190_1001213",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.643,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.6244296875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11194_1001217",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.622,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.9764375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11198_1001221",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.781,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.64205859375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11208_1001231",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.58,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.139390625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11225_1001248",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.631,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.02517578125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11231_1001254",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.883,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.207515625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11236_1001259",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.485,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.79893359375
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11247_1001270",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.695,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 21.9364453125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11253_1001276",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.761,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.8270390625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11256_1001279",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.592,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 11.20320703125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11257_1001280",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.726,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 18.23670703125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11260_1001283",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.502,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.685765625
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11269_1001292",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.855,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.94400390625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11278_1001301",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.64,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.6942578125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11280_1001303",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.451,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.31699609375
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11284_1001307",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.611,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 18.45534375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11299_1001322",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.52,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.45863671875
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11300_1001323",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.72,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.4272109375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11305_1001328",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.513,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 10.35566015625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11306_1001329",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.587,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.15278515625
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11325_1001348",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.674,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.3851875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11330_1001353",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.641,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.6990625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11338_1001361",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.738,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 13.29233203125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11345_1001368",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.686,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 6.7923984375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11357_1001380",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.639,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.56964453125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11361_1001384",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.658,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 13.30730859375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11373_1001396",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.778,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.9663125
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11375_1001398",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.746,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.23030859375
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11377_1001400",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.586,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.19708203125
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11382_1001405",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.613,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 7.12979296875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11384_1001408",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.662,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 15.3290390625
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11385_1001409",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.562,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 5.85984375
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11397_1001421",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.581,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.40011328125
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11423_1001447",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.59,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.3975703125
+      },
+      "mismatches": [
+        "zone_location"
+      ]
+    },
+    {
+      "case_id": "11428_1001452",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.772,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 9.1266328125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11441_1001465",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.732,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.831953125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11444_1001468",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.79,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 4.6659375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11446_1001470",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.59,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 1.07715234375
+      },
+      "mismatches": []
+    },
+    {
+      "case_id": "11447_1001471",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.65,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 8.60804296875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11448_1001472",
+      "rationale_lesion_present": true,
+      "rationale_zone": "TZ",
+      "rationale_shape_sphericity": 0.713,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "TZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 18.8702578125
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11450_1001474",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.601,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "PZ",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.93044921875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11462_1001486",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.858,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 3.675375
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11471_1001495",
+      "rationale_lesion_present": true,
+      "rationale_zone": "mixed",
+      "rationale_shape_sphericity": 0.751,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 2.51785546875
+      },
+      "mismatches": [
+        "shape"
+      ]
+    },
+    {
+      "case_id": "11475_1001499",
+      "rationale_lesion_present": true,
+      "rationale_zone": "PZ",
+      "rationale_shape_sphericity": 0.759,
+      "predicted": {
+        "lesion_present": true,
+        "zone_location": "mixed",
+        "shape_irregular": true,
+        "lesion_volume_cc": 23.88097265625
+      },
+      "mismatches": [
+        "zone_location",
+        "shape"
+      ]
+    }
+  ]
+}

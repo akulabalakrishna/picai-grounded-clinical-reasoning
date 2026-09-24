@@ -1,0 +1,17 @@
+{
+  "id": "akulabalakrishna143/picai-strict-201pos-220neg-training-run-4",
+  "title": "PICAI Strict Training Run 4",
+  "code_file": "kaggle_single_cell_train.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "akulabalakrishna143/picai-strict-201pos-220neg"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

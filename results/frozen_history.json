@@ -1,0 +1,482 @@
+[
+  {
+    "epoch": 0,
+    "contrastive_loss": 1.5654983520507812,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 40
+  },
+  {
+    "epoch": 1,
+    "contrastive_loss": 1.5232677459716797,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 80
+  },
+  {
+    "epoch": 2,
+    "contrastive_loss": 1.4915420532226562,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 120
+  },
+  {
+    "epoch": 3,
+    "contrastive_loss": 1.474207305908203,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 160
+  },
+  {
+    "epoch": 4,
+    "contrastive_loss": 1.4477935791015626,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 200
+  },
+  {
+    "epoch": 5,
+    "contrastive_loss": 1.4288650512695313,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 240
+  },
+  {
+    "epoch": 6,
+    "contrastive_loss": 1.4194229125976563,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 280
+  },
+  {
+    "epoch": 7,
+    "contrastive_loss": 1.414190673828125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 320
+  },
+  {
+    "epoch": 8,
+    "contrastive_loss": 1.4092071533203125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 360
+  },
+  {
+    "epoch": 9,
+    "contrastive_loss": 1.4053817749023438,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 400
+  },
+  {
+    "epoch": 10,
+    "contrastive_loss": 1.4028778076171875,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 440
+  },
+  {
+    "epoch": 11,
+    "contrastive_loss": 1.398077392578125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 480
+  },
+  {
+    "epoch": 12,
+    "contrastive_loss": 1.394921875,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 520
+  },
+  {
+    "epoch": 13,
+    "contrastive_loss": 1.3955780029296876,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 560
+  },
+  {
+    "epoch": 14,
+    "contrastive_loss": 1.3933090209960937,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 600
+  },
+  {
+    "epoch": 15,
+    "contrastive_loss": 1.3930221557617188,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 640
+  },
+  {
+    "epoch": 16,
+    "contrastive_loss": 1.3917251586914063,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 680
+  },
+  {
+    "epoch": 17,
+    "contrastive_loss": 1.3917068481445312,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 720
+  },
+  {
+    "epoch": 18,
+    "contrastive_loss": 1.39136962890625,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 760
+  },
+  {
+    "epoch": 19,
+    "contrastive_loss": 1.3915145874023438,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 800
+  },
+  {
+    "epoch": 20,
+    "contrastive_loss": 1.3909530639648438,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 840
+  },
+  {
+    "epoch": 21,
+    "contrastive_loss": 1.3905136108398437,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 880
+  },
+  {
+    "epoch": 22,
+    "contrastive_loss": 1.3900146484375,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 920
+  },
+  {
+    "epoch": 23,
+    "contrastive_loss": 1.3902679443359376,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 960
+  },
+  {
+    "epoch": 24,
+    "contrastive_loss": 1.3901016235351562,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1000
+  },
+  {
+    "epoch": 25,
+    "contrastive_loss": 1.3893081665039062,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1040
+  },
+  {
+    "epoch": 26,
+    "contrastive_loss": 1.3894699096679688,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1080
+  },
+  {
+    "epoch": 27,
+    "contrastive_loss": 1.389434814453125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1120
+  },
+  {
+    "epoch": 28,
+    "contrastive_loss": 1.3890609741210938,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1160
+  },
+  {
+    "epoch": 29,
+    "contrastive_loss": 1.3891494750976563,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1200
+  },
+  {
+    "epoch": 30,
+    "contrastive_loss": 1.3893661499023438,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1240
+  },
+  {
+    "epoch": 31,
+    "contrastive_loss": 1.3890960693359375,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1280
+  },
+  {
+    "epoch": 32,
+    "contrastive_loss": 1.38919677734375,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1320
+  },
+  {
+    "epoch": 33,
+    "contrastive_loss": 1.3889892578125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1360
+  },
+  {
+    "epoch": 34,
+    "contrastive_loss": 1.3886810302734376,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1400
+  },
+  {
+    "epoch": 35,
+    "contrastive_loss": 1.3890090942382813,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1440
+  },
+  {
+    "epoch": 36,
+    "contrastive_loss": 1.3884979248046876,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1480
+  },
+  {
+    "epoch": 37,
+    "contrastive_loss": 1.3886215209960937,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1520
+  },
+  {
+    "epoch": 38,
+    "contrastive_loss": 1.3886749267578125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1560
+  },
+  {
+    "epoch": 39,
+    "contrastive_loss": 1.3886154174804688,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1600
+  },
+  {
+    "epoch": 40,
+    "contrastive_loss": 1.3886199951171876,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1640
+  },
+  {
+    "epoch": 41,
+    "contrastive_loss": 1.3886062622070312,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1680
+  },
+  {
+    "epoch": 42,
+    "contrastive_loss": 1.3882232666015626,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1720
+  },
+  {
+    "epoch": 43,
+    "contrastive_loss": 1.3886672973632812,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1760
+  },
+  {
+    "epoch": 44,
+    "contrastive_loss": 1.3884109497070312,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1800
+  },
+  {
+    "epoch": 45,
+    "contrastive_loss": 1.3883438110351562,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1840
+  },
+  {
+    "epoch": 46,
+    "contrastive_loss": 1.388262939453125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1880
+  },
+  {
+    "epoch": 47,
+    "contrastive_loss": 1.3881103515625,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1920
+  },
+  {
+    "epoch": 48,
+    "contrastive_loss": 1.388372802734375,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 1960
+  },
+  {
+    "epoch": 49,
+    "contrastive_loss": 1.388165283203125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2000
+  },
+  {
+    "epoch": 50,
+    "contrastive_loss": 1.3882720947265625,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2040
+  },
+  {
+    "epoch": 51,
+    "contrastive_loss": 1.388134765625,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2080
+  },
+  {
+    "epoch": 52,
+    "contrastive_loss": 1.3881820678710937,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2120
+  },
+  {
+    "epoch": 53,
+    "contrastive_loss": 1.3882614135742188,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2160
+  },
+  {
+    "epoch": 54,
+    "contrastive_loss": 1.3881118774414063,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2200
+  },
+  {
+    "epoch": 55,
+    "contrastive_loss": 1.3880523681640624,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2240
+  },
+  {
+    "epoch": 56,
+    "contrastive_loss": 1.3881744384765624,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2280
+  },
+  {
+    "epoch": 57,
+    "contrastive_loss": 1.38798828125,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2320
+  },
+  {
+    "epoch": 58,
+    "contrastive_loss": 1.3879287719726563,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2360
+  },
+  {
+    "epoch": 59,
+    "contrastive_loss": 1.3880050659179688,
+    "focal_loss": null,
+    "val_dice": 0.40304948313885164,
+    "val_localization_accuracy": 0.0,
+    "global_step": 2400
+  }
+]

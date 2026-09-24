@@ -1,0 +1,18 @@
+{
+  "id": "akulabalakrishna143/picai-direction-d-inference-run-1",
+  "title": "PICAI Direction D Inference Run 1",
+  "code_file": "kaggle_direction_d_inference.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "akulabalakrishna143/picai-strict-201pos-220neg",
+    "akulabalakrishna143/picai-baseline-checkpoint"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

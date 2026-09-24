@@ -1,0 +1,15 @@
+{
+  "id": "akulabalakrishna143/picai-direction-a-rationale-run1",
+  "title": "PICAI Direction A Rationale Synthesis Run 1",
+  "code_file": "kaggle_rationale_synthesis.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": ["akulabalakrishna143/picai-strict-201pos-220neg"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,94 @@
+[{"stream_name":"stdout","time":11.048773071,"data":"Device: cuda\n"}
+,{"stream_name":"stdout","time":11.049291606,"data":"Python: 3.12.13\n"}
+,{"stream_name":"stdout","time":11.049302635,"data":"Torch:  2.10.0+cu128   CUDA available: True\n"}
+,{"stream_name":"stdout","time":11.066804791,"data":"GPU(s): 1\n"}
+,{"stream_name":"stderr","time":11.069506854,"data":"/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: \n"}
+,{"stream_name":"stderr","time":11.069533493,"data":"    Found GPU0 Tesla P100-PCIE-16GB which is of cuda capability 6.0.\n"}
+,{"stream_name":"stderr","time":11.069537794,"data":"    Minimum and Maximum cuda capability supported by this version of PyTorch is\n"}
+,{"stream_name":"stderr","time":11.069541745,"data":"    (7.0) - (12.0)\n"}
+,{"stream_name":"stderr","time":11.069549005,"data":"    \n"}
+,{"stream_name":"stderr","time":11.069556435,"data":"  queued_call()\n"}
+,{"stream_name":"stderr","time":11.069558906,"data":"/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: \n"}
+,{"stream_name":"stderr","time":11.069561501,"data":"    Please install PyTorch with a following CUDA\n"}
+,{"stream_name":"stderr","time":11.069563951,"data":"    configurations:  12.6 following instructions at\n"}
+,{"stream_name":"stderr","time":11.06956636,"data":"    https://pytorch.org/get-started/locally/\n"}
+,{"stream_name":"stderr","time":11.06956882,"data":"    \n"}
+,{"stream_name":"stderr","time":11.069571214,"data":"  queued_call()\n"}
+,{"stream_name":"stderr","time":11.069870394,"data":"/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning: \n"}
+,{"stream_name":"stderr","time":11.069881876,"data":"Tesla P100-PCIE-16GB with CUDA capability sm_60 is not compatible with the current PyTorch installation.\n"}
+,{"stream_name":"stderr","time":11.069886612,"data":"The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.\n"}
+,{"stream_name":"stderr","time":11.069890574,"data":"If you want to use the Tesla P100-PCIE-16GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/\n"}
+,{"stream_name":"stderr","time":11.069894443,"data":"\n"}
+,{"stream_name":"stderr","time":11.069897771,"data":"  queued_call()\n"}
+,{"stream_name":"stdout","time":11.071072984,"data":"  [0] Tesla P100-PCIE-16GB  17.1 GB\n"}
+,{"stream_name":"stdout","time":11.07108453,"data":"SimpleITK: 2.5.5\n"}
+,{"stream_name":"stdout","time":11.077297946,"data":"Dataset root: /kaggle/input/datasets/akulabalakrishna143/picai-strict-201pos-220neg\n"}
+,{"stream_name":"stdout","time":13.807330714999999,"data":"Label file extensions: 0 as .nii.gz (as packaged), 1263 as bare .nii (Kaggle-decompression fallback active if \u003e 0)\n"}
+,{"stream_name":"stdout","time":13.814422071,"data":"Train cases: 337  Val cases: 84\n"}
+,{"stream_name":"stderr","time":39.022630434,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":39.022688857,"data":"  File \"/kaggle/src/script.py\", line 952, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":39.023033961,"data":"    main()\n"}
+,{"stream_name":"stderr","time":39.023106424,"data":"  File \"/kaggle/src/script.py\", line 897, in main\n"}
+,{"stream_name":"stderr","time":39.023408593,"data":"    logits = model(x)\n"}
+,{"stream_name":"stderr","time":39.023443778,"data":"             ^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.023493143,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":39.025701858,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.025801837,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.025859368,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1787, in _call_impl\n"}
+,{"stream_name":"stderr","time":39.026301874,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.026341851,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.026381474,"data":"  File \"/kaggle/src/script.py\", line 522, in forward\n"}
+,{"stream_name":"stderr","time":39.02666053,"data":"    e1 = self.enc1(x)\n"}
+,{"stream_name":"stderr","time":39.026687407,"data":"         ^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.026692667,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":39.027099443,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.027185053,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.027206867,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1787, in _call_impl\n"}
+,{"stream_name":"stderr","time":39.027617632,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.028265276,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.028292077,"data":"  File \"/kaggle/src/script.py\", line 496, in forward\n"}
+,{"stream_name":"stderr","time":39.028539192,"data":"    return checkpoint(self.net, x, use_reentrant=False)\n"}
+,{"stream_name":"stderr","time":39.028689356,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.028706996,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/_compile.py\", line 54, in inner\n"}
+,{"stream_name":"stderr","time":39.028901646,"data":"    return disable_fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.028972306,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.029006081,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py\", line 1181, in _fn\n"}
+,{"stream_name":"stderr","time":39.029350714,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.029407678,"data":"           ^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.029578873,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/utils/checkpoint.py\", line 512, in checkpoint\n"}
+,{"stream_name":"stderr","time":39.030794366,"data":"    ret = function(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.030853148,"data":"          ^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.030904936,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":39.031355683,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.031438601,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.031485958,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1787, in _call_impl\n"}
+,{"stream_name":"stderr","time":39.031970055,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.032073482,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.032093765,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py\", line 253, in forward\n"}
+,{"stream_name":"stderr","time":39.032839408,"data":"    input = module(input)\n"}
+,{"stream_name":"stderr","time":39.033722975,"data":"            ^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.03373509,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n"}
+,{"stream_name":"stderr","time":39.033738989,"data":"    return self._call_impl(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.033742437,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.03374583,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py\", line 1787, in _call_impl\n"}
+,{"stream_name":"stderr","time":39.033749649,"data":"    return forward_call(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":39.033793982,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.033829337,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/conv.py\", line 723, in forward\n"}
+,{"stream_name":"stderr","time":39.035058322,"data":"    return self._conv_forward(input, self.weight, self.bias)\n"}
+,{"stream_name":"stderr","time":39.035190535,"data":"           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.035197164,"data":"  File \"/usr/local/lib/python3.12/dist-packages/torch/nn/modules/conv.py\", line 718, in _conv_forward\n"}
+,{"stream_name":"stderr","time":39.035446783,"data":"    return F.conv3d(\n"}
+,{"stream_name":"stderr","time":39.03545341,"data":"           ^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":39.035487447,"data":"torch.AcceleratorError: CUDA error: no kernel image is available for execution on the device\n"}
+,{"stream_name":"stderr","time":39.035492572,"data":"Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.\n"}
+,{"stream_name":"stderr","time":39.035497212,"data":"CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\n"}
+,{"stream_name":"stderr","time":39.035501964,"data":"For debugging consider passing CUDA_LAUNCH_BLOCKING=1\n"}
+,{"stream_name":"stderr","time":39.035506155,"data":"Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\n"}
+,{"stream_name":"stderr","time":39.035510152,"data":"\n"}
+,{"stream_name":"stderr","time":43.283228026,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":43.283267943,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":43.506995848,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":43.507029455,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":44.141500531,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":45.480926593,"data":"[NbConvertApp] Writing 451968 bytes to __results__.html\n"}
+]

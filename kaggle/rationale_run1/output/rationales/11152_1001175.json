@@ -1,0 +1,29 @@
+{
+  "case_id": "11152_1001175",
+  "lesion_present": true,
+  "marksheet_pirads": "4",
+  "lesion_volume_mm3": 569.3,
+  "lesion_volume_cc": 0.569,
+  "zone_location": "PZ",
+  "zone_pz_fraction": 0.764,
+  "zone_tz_fraction": 0.236,
+  "t2w_intensity_zscore": -0.394,
+  "shape_sphericity": 0.526,
+  "extraprostatic_extension": false,
+  "frac_lesion_outside_gland": 0.0,
+  "predicted_pirads": 2,
+  "rationale_text": "Case 11152_1001175: a 0.57 cc lesion in the peripheral zone is mildly hypointense/indeterminate on T2W (z=-0.39 relative to same-zone background tissue) with irregular, ill-defined (sphericity=0.53) margins. These measurements are consistent with PI-RADS category 2.",
+  "defect_check": {
+    "gland_voxels": 60873,
+    "lesion_voxels": 1620,
+    "frac_lesion_in_gland": 1.0,
+    "centroid_distance_mm": 9.1,
+    "gland_equiv_radius_mm": 17.2,
+    "checks": {
+      "gland_nonempty": true,
+      "lesion_matches_label": true,
+      "lesion_mostly_in_gland": true,
+      "lesion_centroid_near_gland": true
+    }
+  }
+}

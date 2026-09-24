@@ -1,0 +1,550 @@
+[{"stream_name":"stdout","time":0.800233575,"data":"[startup] nvidia-smi GPU probe (pre-torch-install): ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":5.679342304,"data":"[startup] No P100 detected (T4, other modern GPU, or no GPU at all) -- keeping Kaggle's preinstalled torch build rather than downgrading unnecessarily.\n"}
+,{"stream_name":"stdout","time":10.728831075,"data":"Device: cuda\n"}
+,{"stream_name":"stdout","time":10.72938567,"data":"Python: 3.12.13\n"}
+,{"stream_name":"stdout","time":10.729399951,"data":"Torch:  2.10.0+cu128   CUDA available: True\n"}
+,{"stream_name":"stdout","time":10.756592275,"data":"GPU(s): 2\n"}
+,{"stream_name":"stdout","time":10.770909242,"data":"  [0] Tesla T4  15.6 GB  compute_capability=7.5\n"}
+,{"stream_name":"stdout","time":10.770926583,"data":"  [1] Tesla T4  15.6 GB  compute_capability=7.5\n"}
+,{"stream_name":"stdout","time":10.7709319,"data":"SimpleITK: 2.5.5\n"}
+,{"stream_name":"stdout","time":10.778287828,"data":"Dataset root: /kaggle/input/datasets/akulabalakrishna143/picai-strict-201pos-220neg\n"}
+,{"stream_name":"stdout","time":16.893198923,"data":"Baseline checkpoint: /kaggle/input/datasets/akulabalakrishna143/picai-baseline-checkpoint/step_0005040_epoch_0059_end.pt\n"}
+,{"stream_name":"stdout","time":17.454673136,"data":"Loaded baseline checkpoint: epoch=59 global_step=5040\n"}
+,{"stream_name":"stdout","time":17.46087549,"data":"train=337 val=84\n"}
+,{"stream_name":"stdout","time":29.63315357,"data":"  [calibration 1/84] 10486_1000494  clean_dice=0.34507667024930316  elapsed=12.2s\n"}
+,{"stream_name":"stdout","time":34.874420554,"data":"  [calibration 2/84] 11357_1001380  clean_dice=0.0  elapsed=17.4s\n"}
+,{"stream_name":"stdout","time":39.354589639,"data":"  [calibration 3/84] 10730_1000746  clean_dice=0.7444860994815826  elapsed=21.9s\n"}
+,{"stream_name":"stdout","time":43.718543971,"data":"  [calibration 4/84] 11074_1001096  clean_dice=0.6000970244407654  elapsed=26.3s\n"}
+,{"stream_name":"stdout","time":49.177155749,"data":"  [calibration 5/84] 10634_1000650  clean_dice=0.4271941753104329  elapsed=31.7s\n"}
+,{"stream_name":"stdout","time":53.530540533,"data":"  [calibration 6/84] 10019_1000019  clean_dice=0.13135747984051704  elapsed=36.1s\n"}
+,{"stream_name":"stdout","time":57.915463933,"data":"  [calibration 7/84] 11471_1001495  clean_dice=0.7031445503234863  elapsed=40.5s\n"}
+,{"stream_name":"stdout","time":62.332215424,"data":"  [calibration 8/84] 11373_1001396  clean_dice=0.20327626913785934  elapsed=44.9s\n"}
+,{"stream_name":"stdout","time":66.84495107,"data":"  [calibration 9/84] 10117_1000117  clean_dice=0.1529424451291561  elapsed=49.4s\n"}
+,{"stream_name":"stdout","time":71.350086661,"data":"  [calibration 10/84] 10484_1000492  clean_dice=0.7651501099268595  elapsed=53.9s\n"}
+,{"stream_name":"stdout","time":77.575835609,"data":"  [calibration 11/84] 11446_1001470  clean_dice=0.5808084666728973  elapsed=60.1s\n"}
+,{"stream_name":"stdout","time":81.937001748,"data":"  [calibration 12/84] 10635_1000651  clean_dice=0.14623574912548065  elapsed=64.5s\n"}
+,{"stream_name":"stdout","time":86.203024299,"data":"  [calibration 13/84] 10942_1000961  clean_dice=0.3831004723906517  elapsed=68.7s\n"}
+,{"stream_name":"stdout","time":92.483398595,"data":"  [calibration 14/84] 10798_1000814  clean_dice=0.79515141248703  elapsed=75.0s\n"}
+,{"stream_name":"stdout","time":96.779693327,"data":"  [calibration 15/84] 11080_1001102  clean_dice=0.4755241870880127  elapsed=79.3s\n"}
+,{"stream_name":"stdout","time":103.080755568,"data":"  [calibration 16/84] 10901_1000917  clean_dice=0.00020345880184322596  elapsed=85.6s\n"}
+,{"stream_name":"stdout","time":107.445006727,"data":"  [calibration 17/84] 10985_1001004  clean_dice=0.5187737286090851  elapsed=90.0s\n"}
+,{"stream_name":"stdout","time":111.910360935,"data":"  [calibration 18/84] 10012_1000012  clean_dice=0.2647185381501913  elapsed=94.4s\n"}
+,{"stream_name":"stdout","time":116.15024648,"data":"  [calibration 19/84] 10048_1000048  clean_dice=0.5974403247237206  elapsed=98.7s\n"}
+,{"stream_name":"stdout","time":120.916317036,"data":"  [calibration 20/84] 10975_1000994  clean_dice=0.0  elapsed=103.5s\n"}
+,{"stream_name":"stdout","time":127.404091221,"data":"  [calibration 21/84] 10372_1000378  clean_dice=0.27995762676000596  elapsed=109.9s\n"}
+,{"stream_name":"stdout","time":133.714059505,"data":"  [calibration 22/84] 10948_1000967  clean_dice=0.3203919033209483  elapsed=116.3s\n"}
+,{"stream_name":"stdout","time":140.00477311,"data":"  [calibration 23/84] 10728_1000744  clean_dice=0.1872668594121933  elapsed=122.5s\n"}
+,{"stream_name":"stdout","time":144.284941954,"data":"  [calibration 24/84] 10157_1000160  clean_dice=0.501184418797493  elapsed=126.8s\n"}
+,{"stream_name":"stdout","time":148.681664191,"data":"  [calibration 25/84] 11086_1001108  clean_dice=0.6765449990828832  elapsed=131.2s\n"}
+,{"stream_name":"stdout","time":153.035026107,"data":"  [calibration 26/84] 10833_1000849  clean_dice=0.4865295380353928  elapsed=135.6s\n"}
+,{"stream_name":"stdout","time":157.291233646,"data":"  [calibration 27/84] 11231_1001254  clean_dice=0.0  elapsed=139.8s\n"}
+,{"stream_name":"stdout","time":161.585073065,"data":"  [calibration 28/84] 11190_1001213  clean_dice=0.5268666937947273  elapsed=144.1s\n"}
+,{"stream_name":"stdout","time":166.211171367,"data":"  [calibration 29/84] 11102_1001125  clean_dice=0.3782663643360138  elapsed=148.7s\n"}
+,{"stream_name":"stdout","time":172.370255212,"data":"  [calibration 30/84] 10970_1000989  clean_dice=0.4986312488714854  elapsed=154.9s\n"}
+,{"stream_name":"stdout","time":178.649699237,"data":"  [calibration 31/84] 10938_1000957  clean_dice=0.4654663928917476  elapsed=161.2s\n"}
+,{"stream_name":"stdout","time":182.900973682,"data":"  [calibration 32/84] 10839_1000855  clean_dice=0.0  elapsed=165.4s\n"}
+,{"stream_name":"stdout","time":187.329215018,"data":"  [calibration 33/84] 11181_1001204  clean_dice=0.5592285022139549  elapsed=169.9s\n"}
+,{"stream_name":"stdout","time":191.732004245,"data":"  [calibration 34/84] 11155_1001178  clean_dice=0.39199278876185417  elapsed=174.3s\n"}
+,{"stream_name":"stdout","time":196.16504554,"data":"  [calibration 35/84] 10523_1000533  clean_dice=0.48797787590460345  elapsed=178.7s\n"}
+,{"stream_name":"stdout","time":200.549435341,"data":"  [calibration 36/84] 11375_1001398  clean_dice=0.48712868690490724  elapsed=183.1s\n"}
+,{"stream_name":"stdout","time":205.662675283,"data":"  [calibration 37/84] 11194_1001217  clean_dice=0.787118673324585  elapsed=188.2s\n"}
+,{"stream_name":"stdout","time":209.903270456,"data":"  [calibration 38/84] 10368_1000374  clean_dice=0.5075020492076874  elapsed=192.4s\n"}
+,{"stream_name":"stdout","time":216.288689132,"data":"  [calibration 39/84] 11236_1001259  clean_dice=0.28252924159169196  elapsed=198.8s\n"}
+,{"stream_name":"stdout","time":220.595297169,"data":"  [calibration 40/84] 10340_1000346  clean_dice=0.4630758116642634  elapsed=203.1s\n"}
+,{"stream_name":"stdout","time":225.199418367,"data":"  [calibration 41/84] 10356_1000362  clean_dice=None  elapsed=207.7s\n"}
+,{"stream_name":"stdout","time":230.09778037,"data":"  [calibration 42/84] 10049_1000049  clean_dice=None  elapsed=212.6s\n"}
+,{"stream_name":"stdout","time":234.356903327,"data":"  [calibration 43/84] 10131_1000132  clean_dice=None  elapsed=216.9s\n"}
+,{"stream_name":"stdout","time":239.079080164,"data":"  [calibration 44/84] 10129_1000129  clean_dice=None  elapsed=221.6s\n"}
+,{"stream_name":"stdout","time":244.189897132,"data":"  [calibration 45/84] 10201_1000205  clean_dice=None  elapsed=226.7s\n"}
+,{"stream_name":"stdout","time":249.074337625,"data":"  [calibration 46/84] 10073_1000073  clean_dice=None  elapsed=231.6s\n"}
+,{"stream_name":"stdout","time":253.270938247,"data":"  [calibration 47/84] 10166_1000169  clean_dice=None  elapsed=235.8s\n"}
+,{"stream_name":"stdout","time":257.686328209,"data":"  [calibration 48/84] 10295_1000301  clean_dice=None  elapsed=240.2s\n"}
+,{"stream_name":"stdout","time":262.527924636,"data":"  [calibration 49/84] 10070_1000070  clean_dice=None  elapsed=245.1s\n"}
+,{"stream_name":"stdout","time":267.156311645,"data":"  [calibration 50/84] 10122_1000122  clean_dice=None  elapsed=249.7s\n"}
+,{"stream_name":"stdout","time":271.623084485,"data":"  [calibration 51/84] 10042_1000042  clean_dice=None  elapsed=254.2s\n"}
+,{"stream_name":"stdout","time":276.095203158,"data":"  [calibration 52/84] 10242_1000246  clean_dice=None  elapsed=258.6s\n"}
+,{"stream_name":"stdout","time":280.726846534,"data":"  [calibration 53/84] 10163_1000166  clean_dice=None  elapsed=263.3s\n"}
+,{"stream_name":"stdout","time":287.066631079,"data":"  [calibration 54/84] 10387_1000393  clean_dice=None  elapsed=269.6s\n"}
+,{"stream_name":"stdout","time":291.973493042,"data":"  [calibration 55/84] 10124_1000124  clean_dice=None  elapsed=274.5s\n"}
+,{"stream_name":"stdout","time":296.389784046,"data":"  [calibration 56/84] 10051_1000051  clean_dice=None  elapsed=278.9s\n"}
+,{"stream_name":"stdout","time":300.845776817,"data":"  [calibration 57/84] 10075_1000075  clean_dice=None  elapsed=283.4s\n"}
+,{"stream_name":"stdout","time":305.282488135,"data":"  [calibration 58/84] 10037_1000037  clean_dice=None  elapsed=287.8s\n"}
+,{"stream_name":"stdout","time":309.727893176,"data":"  [calibration 59/84] 10313_1000319  clean_dice=None  elapsed=292.3s\n"}
+,{"stream_name":"stdout","time":314.324970349,"data":"  [calibration 60/84] 10038_1000038  clean_dice=None  elapsed=296.9s\n"}
+,{"stream_name":"stdout","time":318.797837727,"data":"  [calibration 61/84] 10119_1000119  clean_dice=None  elapsed=301.3s\n"}
+,{"stream_name":"stdout","time":323.607862681,"data":"  [calibration 62/84] 10177_1000180  clean_dice=None  elapsed=306.1s\n"}
+,{"stream_name":"stdout","time":328.249460439,"data":"  [calibration 63/84] 10082_1000082  clean_dice=None  elapsed=310.8s\n"}
+,{"stream_name":"stdout","time":332.715028612,"data":"  [calibration 64/84] 10062_1000062  clean_dice=None  elapsed=315.3s\n"}
+,{"stream_name":"stdout","time":337.081231401,"data":"  [calibration 65/84] 10084_1000084  clean_dice=None  elapsed=319.6s\n"}
+,{"stream_name":"stdout","time":343.403426222,"data":"  [calibration 66/84] 10067_1000067  clean_dice=None  elapsed=325.9s\n"}
+,{"stream_name":"stdout","time":347.651487017,"data":"  [calibration 67/84] 10056_1000056  clean_dice=None  elapsed=330.2s\n"}
+,{"stream_name":"stdout","time":352.200478006,"data":"  [calibration 68/84] 10270_1000274  clean_dice=None  elapsed=334.7s\n"}
+,{"stream_name":"stdout","time":358.733325083,"data":"  [calibration 69/84] 10389_1000395  clean_dice=None  elapsed=341.3s\n"}
+,{"stream_name":"stdout","time":363.288498296,"data":"  [calibration 70/84] 10115_1000115  clean_dice=None  elapsed=345.8s\n"}
+,{"stream_name":"stdout","time":367.928875653,"data":"  [calibration 71/84] 10155_1000158  clean_dice=None  elapsed=350.5s\n"}
+,{"stream_name":"stdout","time":372.627062023,"data":"  [calibration 72/84] 10031_1000031  clean_dice=None  elapsed=355.2s\n"}
+,{"stream_name":"stdout","time":377.553066436,"data":"  [calibration 73/84] 10020_1000020  clean_dice=None  elapsed=360.1s\n"}
+,{"stream_name":"stdout","time":382.092093158,"data":"  [calibration 74/84] 10179_1000182  clean_dice=None  elapsed=364.6s\n"}
+,{"stream_name":"stdout","time":386.611043253,"data":"  [calibration 75/84] 10243_1000247  clean_dice=None  elapsed=369.1s\n"}
+,{"stream_name":"stdout","time":391.162784699,"data":"  [calibration 76/84] 10213_1000217  clean_dice=None  elapsed=373.7s\n"}
+,{"stream_name":"stdout","time":397.827335163,"data":"  [calibration 77/84] 10245_1000249  clean_dice=None  elapsed=380.4s\n"}
+,{"stream_name":"stdout","time":402.828426425,"data":"  [calibration 78/84] 10089_1000089  clean_dice=None  elapsed=385.4s\n"}
+,{"stream_name":"stdout","time":407.274587753,"data":"  [calibration 79/84] 10011_1000011  clean_dice=None  elapsed=389.8s\n"}
+,{"stream_name":"stdout","time":411.9943932,"data":"  [calibration 80/84] 10080_1000080  clean_dice=None  elapsed=394.5s\n"}
+,{"stream_name":"stdout","time":416.395771831,"data":"  [calibration 81/84] 10162_1000165  clean_dice=None  elapsed=398.9s\n"}
+,{"stream_name":"stdout","time":421.020191979,"data":"  [calibration 82/84] 10169_1000172  clean_dice=None  elapsed=403.6s\n"}
+,{"stream_name":"stdout","time":427.46460544,"data":"  [calibration 83/84] 10105_1000105  clean_dice=None  elapsed=410.0s\n"}
+,{"stream_name":"stdout","time":431.93465625,"data":"  [calibration 84/84] 10033_1000033  clean_dice=None  elapsed=414.5s\n"}
+,{"stream_name":"stdout","time":431.934835858,"data":"CALIBRATION DONE: ECE=0.2178 over 2,113,929,216 voxels, 84 val cases, mean_clean_dice=0.40305852091913286\n"}
+,{"stream_name":"stdout","time":439.296725832,"data":"  [robustness 1/20] 10486_1000494  {'case_id': '10486_1000494', 'clean_dice': 0.34507667024930316, 'dice_gaussian_noise': 0.3159993638594945, 'dice_gaussian_blur': 0.3252447545528412, 'dice_intensity_shift': 0.3478623628616333}  elapsed=421.8s\n"}
+,{"stream_name":"stdout","time":445.555465348,"data":"  [robustness 2/20] 11357_1001380  {'case_id': '11357_1001380', 'clean_dice': 0.0, 'dice_gaussian_noise': 0.0, 'dice_gaussian_blur': 0.0, 'dice_intensity_shift': 0.0}  elapsed=428.1s\n"}
+,{"stream_name":"stdout","time":451.084887208,"data":"  [robustness 3/20] 10730_1000746  {'case_id': '10730_1000746', 'clean_dice': 0.7444860994815826, 'dice_gaussian_noise': 0.7416201204061508, 'dice_gaussian_blur': 0.766175851225853, 'dice_intensity_shift': 0.7439925581216812}  elapsed=433.6s\n"}
+,{"stream_name":"stdout","time":456.612895197,"data":"  [robustness 4/20] 11074_1001096  {'case_id': '11074_1001096', 'clean_dice': 0.6000970244407654, 'dice_gaussian_noise': 0.5951836943626404, 'dice_gaussian_blur': 0.4024763911962509, 'dice_intensity_shift': 0.6017899334430694}  elapsed=439.2s\n"}
+,{"stream_name":"stdout","time":462.865749504,"data":"  [robustness 5/20] 10634_1000650  {'case_id': '10634_1000650', 'clean_dice': 0.4271941753104329, 'dice_gaussian_noise': 0.4316628519445658, 'dice_gaussian_blur': 0.31055007223039865, 'dice_intensity_shift': 0.42461166717112064}  elapsed=445.4s\n"}
+,{"stream_name":"stdout","time":468.30915586,"data":"  [robustness 6/20] 10019_1000019  {'case_id': '10019_1000019', 'clean_dice': 0.13135747984051704, 'dice_gaussian_noise': 0.12541794031858444, 'dice_gaussian_blur': 0.0, 'dice_intensity_shift': 0.13070280104875565}  elapsed=450.8s\n"}
+,{"stream_name":"stdout","time":473.738736694,"data":"  [robustness 7/20] 11471_1001495  {'case_id': '11471_1001495', 'clean_dice': 0.7031445503234863, 'dice_gaussian_noise': 0.6983381509780884, 'dice_gaussian_blur': 0.7158408959706625, 'dice_intensity_shift': 0.6996334195137024}  elapsed=456.3s\n"}
+,{"stream_name":"stdout","time":479.171249917,"data":"  [robustness 8/20] 11373_1001396  {'case_id': '11373_1001396', 'clean_dice': 0.20327626913785934, 'dice_gaussian_noise': 0.1884111389517784, 'dice_gaussian_blur': 0.38092127442359924, 'dice_intensity_shift': 0.20104775577783585}  elapsed=461.7s\n"}
+,{"stream_name":"stdout","time":484.813619335,"data":"  [robustness 9/20] 10117_1000117  {'case_id': '10117_1000117', 'clean_dice': 0.1529424451291561, 'dice_gaussian_noise': 0.13505886495113373, 'dice_gaussian_blur': 0.15929367393255234, 'dice_intensity_shift': 0.1545241686205069}  elapsed=467.4s\n"}
+,{"stream_name":"stdout","time":490.304178892,"data":"  [robustness 10/20] 10484_1000492  {'case_id': '10484_1000492', 'clean_dice': 0.7651501099268595, 'dice_gaussian_noise': 0.7528821031252543, 'dice_gaussian_blur': 0.6769375801086426, 'dice_intensity_shift': 0.7639244397481283}  elapsed=472.8s\n"}
+,{"stream_name":"stdout","time":497.427500804,"data":"  [robustness 11/20] 11446_1001470  {'case_id': '11446_1001470', 'clean_dice': 0.5808084666728973, 'dice_gaussian_noise': 0.5913234353065491, 'dice_gaussian_blur': 0.24109712932258845, 'dice_intensity_shift': 0.5803572237491608}  elapsed=480.0s\n"}
+,{"stream_name":"stdout","time":502.949113773,"data":"  [robustness 12/20] 10635_1000651  {'case_id': '10635_1000651', 'clean_dice': 0.14623574912548065, 'dice_gaussian_noise': 0.13307100534439087, 'dice_gaussian_blur': 0.40269750356674194, 'dice_intensity_shift': 0.14497621357440948}  elapsed=485.5s\n"}
+,{"stream_name":"stdout","time":508.468473867,"data":"  [robustness 13/20] 10942_1000961  {'case_id': '10942_1000961', 'clean_dice': 0.3831004723906517, 'dice_gaussian_noise': 0.3384915068745613, 'dice_gaussian_blur': 0.5933788269758224, 'dice_intensity_shift': 0.3818156197667122}  elapsed=491.0s\n"}
+,{"stream_name":"stdout","time":515.794453712,"data":"  [robustness 14/20] 10798_1000814  {'case_id': '10798_1000814', 'clean_dice': 0.79515141248703, 'dice_gaussian_noise': 0.8046404634203229, 'dice_gaussian_blur': 0.6985434762069157, 'dice_intensity_shift': 0.795769031558718}  elapsed=498.3s\n"}
+,{"stream_name":"stdout","time":521.388950679,"data":"  [robustness 15/20] 11080_1001102  {'case_id': '11080_1001102', 'clean_dice': 0.4755241870880127, 'dice_gaussian_noise': 0.4656225204467773, 'dice_gaussian_blur': 0.5236786365509033, 'dice_intensity_shift': 0.468143230676651}  elapsed=503.9s\n"}
+,{"stream_name":"stdout","time":528.704318914,"data":"  [robustness 16/20] 10901_1000917  {'case_id': '10901_1000917', 'clean_dice': 0.00020345880184322596, 'dice_gaussian_noise': 0.0003144129412248731, 'dice_gaussian_blur': 0.001152263395488262, 'dice_intensity_shift': 0.00013831258984282614}  elapsed=511.2s\n"}
+,{"stream_name":"stdout","time":534.304260436,"data":"  [robustness 17/20] 10985_1001004  {'case_id': '10985_1001004', 'clean_dice': 0.5187737286090851, 'dice_gaussian_noise': 0.49509143829345703, 'dice_gaussian_blur': 0.5202093183994293, 'dice_intensity_shift': 0.5176174581050873}  elapsed=516.8s\n"}
+,{"stream_name":"stdout","time":539.890850519,"data":"  [robustness 18/20] 10012_1000012  {'case_id': '10012_1000012', 'clean_dice': 0.2647185381501913, 'dice_gaussian_noise': 0.23636888526380062, 'dice_gaussian_blur': 0.4420487657189369, 'dice_intensity_shift': 0.26031349040567875}  elapsed=522.4s\n"}
+,{"stream_name":"stdout","time":545.461518086,"data":"  [robustness 19/20] 10048_1000048  {'case_id': '10048_1000048', 'clean_dice': 0.5974403247237206, 'dice_gaussian_noise': 0.5712921172380447, 'dice_gaussian_blur': 0.7930792272090912, 'dice_intensity_shift': 0.5934738218784332}  elapsed=528.0s\n"}
+,{"stream_name":"stdout","time":551.221830537,"data":"  [robustness 20/20] 10975_1000994  {'case_id': '10975_1000994', 'clean_dice': 0.0, 'dice_gaussian_noise': 0.0, 'dice_gaussian_blur': 0.0, 'dice_intensity_shift': 0.0}  elapsed=533.8s\n"}
+,{"stream_name":"stdout","time":551.222107274,"data":"ROBUSTNESS DONE: {'n_cases': 20, 'mean_clean_dice': 0.3917340580944438, 'mean_dice_gaussian_noise': 0.381039500701341, 'mean_dice_gaussian_blur': 0.39766628204933585, 'mean_dice_intensity_shift': 0.39053467543055637}\n"}
+,{"stream_name":"stdout","time":555.894021083,"data":"  [consistency 1/421] 10000_1000000  mismatches=['lesion_present']  elapsed=538.4s\n"}
+,{"stream_name":"stdout","time":560.118657853,"data":"  [consistency 2/421] 10001_1000001  mismatches=['lesion_present']  elapsed=542.7s\n"}
+,{"stream_name":"stdout","time":563.995317089,"data":"  [consistency 3/421] 10002_1000002  mismatches=['lesion_present']  elapsed=546.5s\n"}
+,{"stream_name":"stdout","time":567.833847006,"data":"  [consistency 4/421] 10003_1000003  mismatches=['lesion_present']  elapsed=550.4s\n"}
+,{"stream_name":"stdout","time":572.122669862,"data":"  [consistency 5/421] 10004_1000004  mismatches=['lesion_present']  elapsed=554.7s\n"}
+,{"stream_name":"stdout","time":575.846831776,"data":"  [consistency 6/421] 10005_1000005  mismatches=['zone_location', 'shape']  elapsed=558.4s\n"}
+,{"stream_name":"stdout","time":579.611024087,"data":"  [consistency 7/421] 10006_1000006  mismatches=['lesion_present']  elapsed=562.1s\n"}
+,{"stream_name":"stdout","time":583.789445132,"data":"  [consistency 8/421] 10007_1000007  mismatches=['lesion_present']  elapsed=566.3s\n"}
+,{"stream_name":"stdout","time":589.654444917,"data":"  [consistency 9/421] 10009_1000009  mismatches=['lesion_present']  elapsed=572.2s\n"}
+,{"stream_name":"stdout","time":594.156061978,"data":"  [consistency 10/421] 10010_1000010  mismatches=['lesion_present']  elapsed=576.7s\n"}
+,{"stream_name":"stdout","time":597.90664679,"data":"  [consistency 11/421] 10011_1000011  mismatches=['lesion_present']  elapsed=580.4s\n"}
+,{"stream_name":"stdout","time":601.775342973,"data":"  [consistency 12/421] 10012_1000012  mismatches=['zone_location', 'shape']  elapsed=584.3s\n"}
+,{"stream_name":"stdout","time":606.064020296,"data":"  [consistency 13/421] 10014_1000014  mismatches=['lesion_present']  elapsed=588.6s\n"}
+,{"stream_name":"stdout","time":612.407171136,"data":"  [consistency 14/421] 10015_1000015  mismatches=['lesion_present']  elapsed=594.9s\n"}
+,{"stream_name":"stdout","time":616.638406618,"data":"  [consistency 15/421] 10016_1000016  mismatches=['lesion_present']  elapsed=599.2s\n"}
+,{"stream_name":"stdout","time":620.883898382,"data":"  [consistency 16/421] 10017_1000017  mismatches=['lesion_present']  elapsed=603.4s\n"}
+,{"stream_name":"stdout","time":625.281845746,"data":"  [consistency 17/421] 10018_1000018  mismatches=['lesion_present']  elapsed=607.8s\n"}
+,{"stream_name":"stdout","time":629.210674144,"data":"  [consistency 18/421] 10019_1000019  mismatches=['zone_location', 'shape']  elapsed=611.7s\n"}
+,{"stream_name":"stdout","time":633.450192158,"data":"  [consistency 19/421] 10020_1000020  mismatches=['lesion_present']  elapsed=616.0s\n"}
+,{"stream_name":"stdout","time":637.706281368,"data":"  [consistency 20/421] 10021_1000021  mismatches=[]  elapsed=620.2s\n"}
+,{"stream_name":"stdout","time":645.975735964,"data":"  [consistency 21/421] 10022_1000022  mismatches=['lesion_present']  elapsed=628.5s\n"}
+,{"stream_name":"stdout","time":650.044880322,"data":"  [consistency 22/421] 10023_1000023  mismatches=['lesion_present']  elapsed=632.6s\n"}
+,{"stream_name":"stdout","time":654.287750396,"data":"  [consistency 23/421] 10024_1000024  mismatches=['lesion_present']  elapsed=636.8s\n"}
+,{"stream_name":"stdout","time":658.607356052,"data":"  [consistency 24/421] 10025_1000025  mismatches=['lesion_present']  elapsed=641.1s\n"}
+,{"stream_name":"stdout","time":663.222083192,"data":"  [consistency 25/421] 10026_1000026  mismatches=['lesion_present']  elapsed=645.8s\n"}
+,{"stream_name":"stdout","time":667.289124534,"data":"  [consistency 26/421] 10027_1000027  mismatches=['lesion_present']  elapsed=649.8s\n"}
+,{"stream_name":"stdout","time":671.769805783,"data":"  [consistency 27/421] 10028_1000028  mismatches=['lesion_present']  elapsed=654.3s\n"}
+,{"stream_name":"stdout","time":676.096096089,"data":"  [consistency 28/421] 10030_1000030  mismatches=['lesion_present']  elapsed=658.6s\n"}
+,{"stream_name":"stdout","time":680.212769527,"data":"  [consistency 29/421] 10031_1000031  mismatches=['lesion_present']  elapsed=662.8s\n"}
+,{"stream_name":"stdout","time":684.426043571,"data":"  [consistency 30/421] 10032_1000032  mismatches=['shape']  elapsed=667.0s\n"}
+,{"stream_name":"stdout","time":688.346148707,"data":"  [consistency 31/421] 10033_1000033  mismatches=['lesion_present']  elapsed=670.9s\n"}
+,{"stream_name":"stdout","time":692.66479144,"data":"  [consistency 32/421] 10034_1000034  mismatches=['lesion_present']  elapsed=675.2s\n"}
+,{"stream_name":"stdout","time":696.603578344,"data":"  [consistency 33/421] 10035_1000035  mismatches=['lesion_present']  elapsed=679.1s\n"}
+,{"stream_name":"stdout","time":700.234449049,"data":"  [consistency 34/421] 10037_1000037  mismatches=['lesion_present']  elapsed=682.8s\n"}
+,{"stream_name":"stdout","time":703.94233733,"data":"  [consistency 35/421] 10038_1000038  mismatches=['lesion_present']  elapsed=686.5s\n"}
+,{"stream_name":"stdout","time":708.242365583,"data":"  [consistency 36/421] 10039_1000039  mismatches=['lesion_present']  elapsed=690.8s\n"}
+,{"stream_name":"stdout","time":712.097301435,"data":"  [consistency 37/421] 10040_1000040  mismatches=['shape']  elapsed=694.6s\n"}
+,{"stream_name":"stdout","time":717.934017142,"data":"  [consistency 38/421] 10041_1000041  mismatches=['lesion_present']  elapsed=700.5s\n"}
+,{"stream_name":"stdout","time":721.658771828,"data":"  [consistency 39/421] 10042_1000042  mismatches=['lesion_present']  elapsed=704.2s\n"}
+,{"stream_name":"stdout","time":725.507881885,"data":"  [consistency 40/421] 10043_1000043  mismatches=[]  elapsed=708.0s\n"}
+,{"stream_name":"stdout","time":729.397267583,"data":"  [consistency 41/421] 10045_1000045  mismatches=['lesion_present']  elapsed=711.9s\n"}
+,{"stream_name":"stdout","time":733.142013386,"data":"  [consistency 42/421] 10046_1000046  mismatches=['lesion_present']  elapsed=715.7s\n"}
+,{"stream_name":"stdout","time":737.087141704,"data":"  [consistency 43/421] 10047_1000047  mismatches=['lesion_present']  elapsed=719.6s\n"}
+,{"stream_name":"stdout","time":740.713089476,"data":"  [consistency 44/421] 10048_1000048  mismatches=['zone_location', 'shape']  elapsed=723.3s\n"}
+,{"stream_name":"stdout","time":744.861432519,"data":"  [consistency 45/421] 10049_1000049  mismatches=['lesion_present']  elapsed=727.4s\n"}
+,{"stream_name":"stdout","time":748.562548495,"data":"  [consistency 46/421] 10051_1000051  mismatches=['lesion_present']  elapsed=731.1s\n"}
+,{"stream_name":"stdout","time":752.402487991,"data":"  [consistency 47/421] 10052_1000052  mismatches=['lesion_present']  elapsed=734.9s\n"}
+,{"stream_name":"stdout","time":756.342196815,"data":"  [consistency 48/421] 10054_1000054  mismatches=['lesion_present']  elapsed=738.9s\n"}
+,{"stream_name":"stdout","time":760.236489709,"data":"  [consistency 49/421] 10055_1000055  mismatches=['lesion_present']  elapsed=742.8s\n"}
+,{"stream_name":"stdout","time":764.011498987,"data":"  [consistency 50/421] 10056_1000056  mismatches=['lesion_present']  elapsed=746.6s\n"}
+,{"stream_name":"stdout","time":768.205997502,"data":"  [consistency 51/421] 10057_1000057  mismatches=['lesion_present']  elapsed=750.7s\n"}
+,{"stream_name":"stdout","time":773.944974721,"data":"  [consistency 52/421] 10058_1000058  mismatches=['lesion_present']  elapsed=756.5s\n"}
+,{"stream_name":"stdout","time":777.81826756,"data":"  [consistency 53/421] 10059_1000059  mismatches=['shape']  elapsed=760.4s\n"}
+,{"stream_name":"stdout","time":781.76221957,"data":"  [consistency 54/421] 10060_1000060  mismatches=['lesion_present']  elapsed=764.3s\n"}
+,{"stream_name":"stdout","time":785.603773362,"data":"  [consistency 55/421] 10061_1000061  mismatches=['lesion_present']  elapsed=768.1s\n"}
+,{"stream_name":"stdout","time":789.38805565,"data":"  [consistency 56/421] 10062_1000062  mismatches=['lesion_present']  elapsed=771.9s\n"}
+,{"stream_name":"stdout","time":793.224664278,"data":"  [consistency 57/421] 10063_1000063  mismatches=['lesion_present']  elapsed=775.8s\n"}
+,{"stream_name":"stdout","time":796.978826842,"data":"  [consistency 58/421] 10064_1000064  mismatches=['lesion_present']  elapsed=779.5s\n"}
+,{"stream_name":"stdout","time":802.863474318,"data":"  [consistency 59/421] 10065_1000065  mismatches=['lesion_present']  elapsed=785.4s\n"}
+,{"stream_name":"stdout","time":806.788260372,"data":"  [consistency 60/421] 10066_1000066  mismatches=['lesion_present']  elapsed=789.3s\n"}
+,{"stream_name":"stdout","time":812.126175224,"data":"  [consistency 61/421] 10067_1000067  mismatches=['lesion_present']  elapsed=794.7s\n"}
+,{"stream_name":"stdout","time":818.198258403,"data":"  [consistency 62/421] 10068_1000068  mismatches=['lesion_present']  elapsed=800.7s\n"}
+,{"stream_name":"stdout","time":822.024511546,"data":"  [consistency 63/421] 10069_1000069  mismatches=['lesion_present']  elapsed=804.6s\n"}
+,{"stream_name":"stdout","time":826.097597517,"data":"  [consistency 64/421] 10070_1000070  mismatches=['lesion_present']  elapsed=808.6s\n"}
+,{"stream_name":"stdout","time":829.972782417,"data":"  [consistency 65/421] 10071_1000071  mismatches=['lesion_present']  elapsed=812.5s\n"}
+,{"stream_name":"stdout","time":833.927135321,"data":"  [consistency 66/421] 10072_1000072  mismatches=['lesion_present']  elapsed=816.5s\n"}
+,{"stream_name":"stdout","time":837.96078513,"data":"  [consistency 67/421] 10073_1000073  mismatches=['lesion_present']  elapsed=820.5s\n"}
+,{"stream_name":"stdout","time":844.190132816,"data":"  [consistency 68/421] 10074_1000074  mismatches=[]  elapsed=826.7s\n"}
+,{"stream_name":"stdout","time":847.968194272,"data":"  [consistency 69/421] 10075_1000075  mismatches=['lesion_present']  elapsed=830.5s\n"}
+,{"stream_name":"stdout","time":851.859578176,"data":"  [consistency 70/421] 10076_1000076  mismatches=['lesion_present']  elapsed=834.4s\n"}
+,{"stream_name":"stdout","time":855.65363227,"data":"  [consistency 71/421] 10077_1000077  mismatches=['lesion_present']  elapsed=838.2s\n"}
+,{"stream_name":"stdout","time":859.695630441,"data":"  [consistency 72/421] 10079_1000079  mismatches=['shape']  elapsed=842.2s\n"}
+,{"stream_name":"stdout","time":863.618562561,"data":"  [consistency 73/421] 10080_1000080  mismatches=['lesion_present']  elapsed=846.2s\n"}
+,{"stream_name":"stdout","time":867.55260693,"data":"  [consistency 74/421] 10081_1000081  mismatches=['lesion_present']  elapsed=850.1s\n"}
+,{"stream_name":"stdout","time":871.630619711,"data":"  [consistency 75/421] 10082_1000082  mismatches=['lesion_present']  elapsed=854.2s\n"}
+,{"stream_name":"stdout","time":875.420455352,"data":"  [consistency 76/421] 10083_1000083  mismatches=['lesion_present']  elapsed=858.0s\n"}
+,{"stream_name":"stdout","time":879.075157432,"data":"  [consistency 77/421] 10084_1000084  mismatches=['lesion_present']  elapsed=861.6s\n"}
+,{"stream_name":"stdout","time":885.129327432,"data":"  [consistency 78/421] 10085_1000085  mismatches=['zone_location']  elapsed=867.7s\n"}
+,{"stream_name":"stdout","time":889.277942654,"data":"  [consistency 79/421] 10086_1000086  mismatches=['lesion_present']  elapsed=871.8s\n"}
+,{"stream_name":"stdout","time":893.692301114,"data":"  [consistency 80/421] 10087_1000087  mismatches=['lesion_present']  elapsed=876.2s\n"}
+,{"stream_name":"stdout","time":897.602593297,"data":"  [consistency 81/421] 10088_1000088  mismatches=['lesion_present']  elapsed=880.1s\n"}
+,{"stream_name":"stdout","time":901.764868501,"data":"  [consistency 82/421] 10089_1000089  mismatches=['lesion_present']  elapsed=884.3s\n"}
+,{"stream_name":"stdout","time":905.766637276,"data":"  [consistency 83/421] 10090_1000090  mismatches=['lesion_present']  elapsed=888.3s\n"}
+,{"stream_name":"stdout","time":909.675840685,"data":"  [consistency 84/421] 10091_1000091  mismatches=['lesion_present']  elapsed=892.2s\n"}
+,{"stream_name":"stdout","time":913.552921493,"data":"  [consistency 85/421] 10092_1000092  mismatches=['lesion_present']  elapsed=896.1s\n"}
+,{"stream_name":"stdout","time":917.650495293,"data":"  [consistency 86/421] 10093_1000093  mismatches=['lesion_present']  elapsed=900.2s\n"}
+,{"stream_name":"stdout","time":923.594041761,"data":"  [consistency 87/421] 10095_1000095  mismatches=['lesion_present']  elapsed=906.1s\n"}
+,{"stream_name":"stdout","time":927.336076207,"data":"  [consistency 88/421] 10096_1000096  mismatches=['lesion_present']  elapsed=909.9s\n"}
+,{"stream_name":"stdout","time":931.350756746,"data":"  [consistency 89/421] 10097_1000097  mismatches=[]  elapsed=913.9s\n"}
+,{"stream_name":"stdout","time":935.099159119,"data":"  [consistency 90/421] 10098_1000098  mismatches=['lesion_present']  elapsed=917.6s\n"}
+,{"stream_name":"stdout","time":939.448936066,"data":"  [consistency 91/421] 10099_1000099  mismatches=['lesion_present']  elapsed=922.0s\n"}
+,{"stream_name":"stdout","time":943.460060126,"data":"  [consistency 92/421] 10101_1000101  mismatches=['lesion_present']  elapsed=926.0s\n"}
+,{"stream_name":"stdout","time":949.4564043,"data":"  [consistency 93/421] 10102_1000102  mismatches=['lesion_present']  elapsed=932.0s\n"}
+,{"stream_name":"stdout","time":955.282262591,"data":"  [consistency 94/421] 10103_1000103  mismatches=['shape']  elapsed=937.8s\n"}
+,{"stream_name":"stdout","time":960.603050712,"data":"  [consistency 95/421] 10105_1000105  mismatches=['lesion_present']  elapsed=943.1s\n"}
+,{"stream_name":"stdout","time":964.447267137,"data":"  [consistency 96/421] 10107_1000107  mismatches=['zone_location', 'shape']  elapsed=947.0s\n"}
+,{"stream_name":"stdout","time":968.825214762,"data":"  [consistency 97/421] 10108_1000108  mismatches=['lesion_present']  elapsed=951.4s\n"}
+,{"stream_name":"stdout","time":972.744922918,"data":"  [consistency 98/421] 10109_1000109  mismatches=['lesion_present']  elapsed=955.3s\n"}
+,{"stream_name":"stdout","time":978.764115753,"data":"  [consistency 99/421] 10111_1000111  mismatches=['lesion_present']  elapsed=961.3s\n"}
+,{"stream_name":"stdout","time":982.642771784,"data":"  [consistency 100/421] 10113_1000113  mismatches=['lesion_present']  elapsed=965.2s\n"}
+,{"stream_name":"stdout","time":988.581919406,"data":"  [consistency 101/421] 10114_1000114  mismatches=['lesion_present']  elapsed=971.1s\n"}
+,{"stream_name":"stdout","time":992.252745686,"data":"  [consistency 102/421] 10115_1000115  mismatches=['lesion_present']  elapsed=974.8s\n"}
+,{"stream_name":"stdout","time":997.084935474,"data":"  [consistency 103/421] 10116_1000116  mismatches=['lesion_present']  elapsed=979.6s\n"}
+,{"stream_name":"stdout","time":1001.133523766,"data":"  [consistency 104/421] 10117_1000117  mismatches=['zone_location']  elapsed=983.7s\n"}
+,{"stream_name":"stdout","time":1005.381739861,"data":"  [consistency 105/421] 10118_1000118  mismatches=['shape']  elapsed=987.9s\n"}
+,{"stream_name":"stdout","time":1009.148413009,"data":"  [consistency 106/421] 10119_1000119  mismatches=['lesion_present']  elapsed=991.7s\n"}
+,{"stream_name":"stdout","time":1013.144856774,"data":"  [consistency 107/421] 10120_1000120  mismatches=['lesion_present']  elapsed=995.7s\n"}
+,{"stream_name":"stdout","time":1017.143775403,"data":"  [consistency 108/421] 10121_1000121  mismatches=['shape']  elapsed=999.7s\n"}
+,{"stream_name":"stdout","time":1021.101872498,"data":"  [consistency 109/421] 10122_1000122  mismatches=['lesion_present']  elapsed=1003.6s\n"}
+,{"stream_name":"stdout","time":1025.104450921,"data":"  [consistency 110/421] 10123_1000123  mismatches=['lesion_present']  elapsed=1007.6s\n"}
+,{"stream_name":"stdout","time":1029.539407732,"data":"  [consistency 111/421] 10124_1000124  mismatches=['lesion_present']  elapsed=1012.1s\n"}
+,{"stream_name":"stdout","time":1033.90678804,"data":"  [consistency 112/421] 10125_1000125  mismatches=['lesion_present']  elapsed=1016.4s\n"}
+,{"stream_name":"stdout","time":1037.721224871,"data":"  [consistency 113/421] 10126_1000126  mismatches=['lesion_present']  elapsed=1020.3s\n"}
+,{"stream_name":"stdout","time":1041.501459418,"data":"  [consistency 114/421] 10127_1000127  mismatches=['lesion_present']  elapsed=1024.0s\n"}
+,{"stream_name":"stdout","time":1046.095969178,"data":"  [consistency 115/421] 10128_1000128  mismatches=['lesion_present']  elapsed=1028.6s\n"}
+,{"stream_name":"stdout","time":1050.099734061,"data":"  [consistency 116/421] 10129_1000129  mismatches=['lesion_present']  elapsed=1032.6s\n"}
+,{"stream_name":"stdout","time":1054.404968721,"data":"  [consistency 117/421] 10129_1000130  mismatches=['lesion_present']  elapsed=1036.9s\n"}
+,{"stream_name":"stdout","time":1058.833783165,"data":"  [consistency 118/421] 10130_1000131  mismatches=['lesion_present']  elapsed=1041.4s\n"}
+,{"stream_name":"stdout","time":1062.514727305,"data":"  [consistency 119/421] 10131_1000132  mismatches=['lesion_present']  elapsed=1045.1s\n"}
+,{"stream_name":"stdout","time":1066.464838016,"data":"  [consistency 120/421] 10131_1000133  mismatches=['lesion_present']  elapsed=1049.0s\n"}
+,{"stream_name":"stdout","time":1072.387481606,"data":"  [consistency 121/421] 10133_1000135  mismatches=['lesion_present']  elapsed=1054.9s\n"}
+,{"stream_name":"stdout","time":1078.348548742,"data":"  [consistency 122/421] 10134_1000136  mismatches=['zone_location', 'shape']  elapsed=1060.9s\n"}
+,{"stream_name":"stdout","time":1082.170860215,"data":"  [consistency 123/421] 10136_1000138  mismatches=['lesion_present']  elapsed=1064.7s\n"}
+,{"stream_name":"stdout","time":1086.056782152,"data":"  [consistency 124/421] 10137_1000139  mismatches=['lesion_present']  elapsed=1068.6s\n"}
+,{"stream_name":"stdout","time":1089.998746921,"data":"  [consistency 125/421] 10138_1000140  mismatches=['lesion_present']  elapsed=1072.5s\n"}
+,{"stream_name":"stdout","time":1095.599477373,"data":"  [consistency 126/421] 10139_1000141  mismatches=['lesion_present']  elapsed=1078.1s\n"}
+,{"stream_name":"stdout","time":1099.588765461,"data":"  [consistency 127/421] 10141_1000143  mismatches=['lesion_present']  elapsed=1082.1s\n"}
+,{"stream_name":"stdout","time":1105.522061573,"data":"  [consistency 128/421] 10142_1000144  mismatches=['lesion_present']  elapsed=1088.1s\n"}
+,{"stream_name":"stdout","time":1109.417280756,"data":"  [consistency 129/421] 10143_1000145  mismatches=['lesion_present']  elapsed=1092.0s\n"}
+,{"stream_name":"stdout","time":1113.299054098,"data":"  [consistency 130/421] 10144_1000146  mismatches=['lesion_present']  elapsed=1095.8s\n"}
+,{"stream_name":"stdout","time":1117.169053972,"data":"  [consistency 131/421] 10145_1000147  mismatches=['lesion_present']  elapsed=1099.7s\n"}
+,{"stream_name":"stdout","time":1121.420666852,"data":"  [consistency 132/421] 10146_1000148  mismatches=['lesion_present']  elapsed=1104.0s\n"}
+,{"stream_name":"stdout","time":1125.973130145,"data":"  [consistency 133/421] 10147_1000149  mismatches=['lesion_present']  elapsed=1108.5s\n"}
+,{"stream_name":"stdout","time":1130.274795963,"data":"  [consistency 134/421] 10149_1000151  mismatches=['lesion_present']  elapsed=1112.8s\n"}
+,{"stream_name":"stdout","time":1134.539895721,"data":"  [consistency 135/421] 10150_1000152  mismatches=['lesion_present']  elapsed=1117.1s\n"}
+,{"stream_name":"stdout","time":1139.179548609,"data":"  [consistency 136/421] 10151_1000153  mismatches=['lesion_present']  elapsed=1121.7s\n"}
+,{"stream_name":"stdout","time":1143.26999596,"data":"  [consistency 137/421] 10152_1000154  mismatches=['lesion_present']  elapsed=1125.8s\n"}
+,{"stream_name":"stdout","time":1147.111525825,"data":"  [consistency 138/421] 10153_1000155  mismatches=['lesion_present']  elapsed=1129.7s\n"}
+,{"stream_name":"stdout","time":1150.923439384,"data":"  [consistency 139/421] 10153_1000156  mismatches=['lesion_present']  elapsed=1133.5s\n"}
+,{"stream_name":"stdout","time":1154.917890922,"data":"  [consistency 140/421] 10154_1000157  mismatches=['lesion_present']  elapsed=1137.5s\n"}
+,{"stream_name":"stdout","time":1158.675294419,"data":"  [consistency 141/421] 10155_1000158  mismatches=['lesion_present']  elapsed=1141.2s\n"}
+,{"stream_name":"stdout","time":1162.9620342,"data":"  [consistency 142/421] 10156_1000159  mismatches=['lesion_present']  elapsed=1145.5s\n"}
+,{"stream_name":"stdout","time":1166.586879099,"data":"  [consistency 143/421] 10157_1000160  mismatches=['shape']  elapsed=1149.1s\n"}
+,{"stream_name":"stdout","time":1170.367794955,"data":"  [consistency 144/421] 10158_1000161  mismatches=['lesion_present']  elapsed=1152.9s\n"}
+,{"stream_name":"stdout","time":1174.25252502,"data":"  [consistency 145/421] 10159_1000162  mismatches=['lesion_present']  elapsed=1156.8s\n"}
+,{"stream_name":"stdout","time":1178.013964269,"data":"  [consistency 146/421] 10160_1000163  mismatches=['lesion_present']  elapsed=1160.6s\n"}
+,{"stream_name":"stdout","time":1181.866003055,"data":"  [consistency 147/421] 10161_1000164  mismatches=['lesion_present']  elapsed=1164.4s\n"}
+,{"stream_name":"stdout","time":1185.65437054,"data":"  [consistency 148/421] 10162_1000165  mismatches=['lesion_present']  elapsed=1168.2s\n"}
+,{"stream_name":"stdout","time":1189.681879483,"data":"  [consistency 149/421] 10163_1000166  mismatches=['lesion_present']  elapsed=1172.2s\n"}
+,{"stream_name":"stdout","time":1195.702156552,"data":"  [consistency 150/421] 10164_1000167  mismatches=['zone_location', 'shape']  elapsed=1178.2s\n"}
+,{"stream_name":"stdout","time":1199.512894206,"data":"  [consistency 151/421] 10165_1000168  mismatches=['lesion_present']  elapsed=1182.1s\n"}
+,{"stream_name":"stdout","time":1203.204561153,"data":"  [consistency 152/421] 10166_1000169  mismatches=['lesion_present']  elapsed=1185.7s\n"}
+,{"stream_name":"stdout","time":1207.058465602,"data":"  [consistency 153/421] 10167_1000170  mismatches=['lesion_present']  elapsed=1189.6s\n"}
+,{"stream_name":"stdout","time":1210.83143727,"data":"  [consistency 154/421] 10169_1000172  mismatches=['lesion_present']  elapsed=1193.4s\n"}
+,{"stream_name":"stdout","time":1215.079654263,"data":"  [consistency 155/421] 10172_1000175  mismatches=['lesion_present']  elapsed=1197.6s\n"}
+,{"stream_name":"stdout","time":1220.874281139,"data":"  [consistency 156/421] 10173_1000176  mismatches=['lesion_present']  elapsed=1203.4s\n"}
+,{"stream_name":"stdout","time":1226.573907654,"data":"  [consistency 157/421] 10174_1000177  mismatches=['lesion_present']  elapsed=1209.1s\n"}
+,{"stream_name":"stdout","time":1230.498394079,"data":"  [consistency 158/421] 10175_1000178  mismatches=['lesion_present']  elapsed=1213.0s\n"}
+,{"stream_name":"stdout","time":1234.776333587,"data":"  [consistency 159/421] 10176_1000179  mismatches=['lesion_present']  elapsed=1217.3s\n"}
+,{"stream_name":"stdout","time":1238.735071671,"data":"  [consistency 160/421] 10177_1000180  mismatches=['lesion_present']  elapsed=1221.3s\n"}
+,{"stream_name":"stdout","time":1242.545794849,"data":"  [consistency 161/421] 10178_1000181  mismatches=['lesion_present']  elapsed=1225.1s\n"}
+,{"stream_name":"stdout","time":1246.335270625,"data":"  [consistency 162/421] 10179_1000182  mismatches=['lesion_present']  elapsed=1228.9s\n"}
+,{"stream_name":"stdout","time":1252.255141945,"data":"  [consistency 163/421] 10184_1000187  mismatches=['lesion_present']  elapsed=1234.8s\n"}
+,{"stream_name":"stdout","time":1256.131258451,"data":"  [consistency 164/421] 10187_1000190  mismatches=['lesion_present']  elapsed=1238.7s\n"}
+,{"stream_name":"stdout","time":1260.325917179,"data":"  [consistency 165/421] 10188_1000191  mismatches=['lesion_present']  elapsed=1242.9s\n"}
+,{"stream_name":"stdout","time":1264.185756076,"data":"  [consistency 166/421] 10191_1000194  mismatches=['lesion_present']  elapsed=1246.7s\n"}
+,{"stream_name":"stdout","time":1269.99426393,"data":"  [consistency 167/421] 10194_1000198  mismatches=['lesion_present']  elapsed=1252.5s\n"}
+,{"stream_name":"stdout","time":1273.926495258,"data":"  [consistency 168/421] 10195_1000199  mismatches=['lesion_present']  elapsed=1256.5s\n"}
+,{"stream_name":"stdout","time":1277.799440127,"data":"  [consistency 169/421] 10197_1000201  mismatches=['lesion_present']  elapsed=1260.3s\n"}
+,{"stream_name":"stdout","time":1281.837411224,"data":"  [consistency 170/421] 10199_1000203  mismatches=['lesion_present']  elapsed=1264.4s\n"}
+,{"stream_name":"stdout","time":1285.794023567,"data":"  [consistency 171/421] 10200_1000204  mismatches=['lesion_present']  elapsed=1268.3s\n"}
+,{"stream_name":"stdout","time":1290.064362719,"data":"  [consistency 172/421] 10201_1000205  mismatches=['lesion_present']  elapsed=1272.6s\n"}
+,{"stream_name":"stdout","time":1293.879328501,"data":"  [consistency 173/421] 10208_1000212  mismatches=['lesion_present']  elapsed=1276.4s\n"}
+,{"stream_name":"stdout","time":1297.798512953,"data":"  [consistency 174/421] 10210_1000214  mismatches=['lesion_present']  elapsed=1280.3s\n"}
+,{"stream_name":"stdout","time":1301.723843207,"data":"  [consistency 175/421] 10211_1000215  mismatches=['shape']  elapsed=1284.3s\n"}
+,{"stream_name":"stdout","time":1305.493900814,"data":"  [consistency 176/421] 10213_1000217  mismatches=['lesion_present']  elapsed=1288.0s\n"}
+,{"stream_name":"stdout","time":1311.391210771,"data":"  [consistency 177/421] 10215_1000219  mismatches=['lesion_present']  elapsed=1293.9s\n"}
+,{"stream_name":"stdout","time":1315.223755692,"data":"  [consistency 178/421] 10216_1000220  mismatches=['zone_location', 'shape']  elapsed=1297.8s\n"}
+,{"stream_name":"stdout","time":1319.090774274,"data":"  [consistency 179/421] 10217_1000221  mismatches=['lesion_present']  elapsed=1301.6s\n"}
+,{"stream_name":"stdout","time":1324.85550664,"data":"  [consistency 180/421] 10218_1000222  mismatches=['lesion_present']  elapsed=1307.4s\n"}
+,{"stream_name":"stdout","time":1328.747430515,"data":"  [consistency 181/421] 10219_1000223  mismatches=['lesion_present']  elapsed=1311.3s\n"}
+,{"stream_name":"stdout","time":1333.739131684,"data":"  [consistency 182/421] 10220_1000224  mismatches=['zone_location']  elapsed=1316.3s\n"}
+,{"stream_name":"stdout","time":1337.713535366,"data":"  [consistency 183/421] 10221_1000225  mismatches=['lesion_present']  elapsed=1320.3s\n"}
+,{"stream_name":"stdout","time":1343.626438169,"data":"  [consistency 184/421] 10222_1000226  mismatches=['lesion_present']  elapsed=1326.2s\n"}
+,{"stream_name":"stdout","time":1349.514138747,"data":"  [consistency 185/421] 10223_1000227  mismatches=['lesion_present']  elapsed=1332.1s\n"}
+,{"stream_name":"stdout","time":1353.315432378,"data":"  [consistency 186/421] 10227_1000231  mismatches=['lesion_present']  elapsed=1335.9s\n"}
+,{"stream_name":"stdout","time":1357.155701237,"data":"  [consistency 187/421] 10230_1000234  mismatches=['lesion_present']  elapsed=1339.7s\n"}
+,{"stream_name":"stdout","time":1362.024192784,"data":"  [consistency 188/421] 10233_1000237  mismatches=['shape']  elapsed=1344.6s\n"}
+,{"stream_name":"stdout","time":1365.844320798,"data":"  [consistency 189/421] 10234_1000238  mismatches=['zone_location', 'shape']  elapsed=1348.4s\n"}
+,{"stream_name":"stdout","time":1369.778830194,"data":"  [consistency 190/421] 10238_1000242  mismatches=['lesion_present']  elapsed=1352.3s\n"}
+,{"stream_name":"stdout","time":1373.765462539,"data":"  [consistency 191/421] 10241_1000245  mismatches=['shape']  elapsed=1356.3s\n"}
+,{"stream_name":"stdout","time":1377.542085222,"data":"  [consistency 192/421] 10242_1000246  mismatches=['lesion_present']  elapsed=1360.1s\n"}
+,{"stream_name":"stdout","time":1381.370509191,"data":"  [consistency 193/421] 10243_1000247  mismatches=['lesion_present']  elapsed=1363.9s\n"}
+,{"stream_name":"stdout","time":1386.201011995,"data":"  [consistency 194/421] 10244_1000248  mismatches=['lesion_present']  elapsed=1368.7s\n"}
+,{"stream_name":"stdout","time":1391.781174193,"data":"  [consistency 195/421] 10245_1000249  mismatches=['lesion_present']  elapsed=1374.3s\n"}
+,{"stream_name":"stdout","time":1395.660977725,"data":"  [consistency 196/421] 10248_1000252  mismatches=['lesion_present']  elapsed=1378.2s\n"}
+,{"stream_name":"stdout","time":1401.338755409,"data":"  [consistency 197/421] 10252_1000256  mismatches=['shape']  elapsed=1383.9s\n"}
+,{"stream_name":"stdout","time":1407.370205471,"data":"  [consistency 198/421] 10253_1000257  mismatches=['lesion_present']  elapsed=1389.9s\n"}
+,{"stream_name":"stdout","time":1411.23874993,"data":"  [consistency 199/421] 10254_1000258  mismatches=['lesion_present']  elapsed=1393.8s\n"}
+,{"stream_name":"stdout","time":1417.042041292,"data":"  [consistency 200/421] 10257_1000261  mismatches=['zone_location', 'shape']  elapsed=1399.6s\n"}
+,{"stream_name":"stdout","time":1420.932307385,"data":"  [consistency 201/421] 10259_1000263  mismatches=['lesion_present']  elapsed=1403.5s\n"}
+,{"stream_name":"stdout","time":1424.776819193,"data":"  [consistency 202/421] 10262_1000266  mismatches=['shape']  elapsed=1407.3s\n"}
+,{"stream_name":"stdout","time":1430.586456503,"data":"  [consistency 203/421] 10263_1000267  mismatches=['lesion_present']  elapsed=1413.1s\n"}
+,{"stream_name":"stdout","time":1434.436054929,"data":"  [consistency 204/421] 10265_1000269  mismatches=['lesion_present']  elapsed=1417.0s\n"}
+,{"stream_name":"stdout","time":1439.138168977,"data":"  [consistency 205/421] 10266_1000270  mismatches=['lesion_present']  elapsed=1421.7s\n"}
+,{"stream_name":"stdout","time":1445.139747342,"data":"  [consistency 206/421] 10267_1000271  mismatches=['lesion_present']  elapsed=1427.7s\n"}
+,{"stream_name":"stdout","time":1449.017585878,"data":"  [consistency 207/421] 10268_1000272  mismatches=['zone_location']  elapsed=1431.6s\n"}
+,{"stream_name":"stdout","time":1452.770372569,"data":"  [consistency 208/421] 10270_1000274  mismatches=['lesion_present']  elapsed=1435.3s\n"}
+,{"stream_name":"stdout","time":1458.798447959,"data":"  [consistency 209/421] 10274_1000279  mismatches=['shape']  elapsed=1441.3s\n"}
+,{"stream_name":"stdout","time":1462.757393864,"data":"  [consistency 210/421] 10275_1000280  mismatches=['lesion_present']  elapsed=1445.3s\n"}
+,{"stream_name":"stdout","time":1467.744499851,"data":"  [consistency 211/421] 10276_1000281  mismatches=['lesion_present']  elapsed=1450.3s\n"}
+,{"stream_name":"stdout","time":1473.665390673,"data":"  [consistency 212/421] 10277_1000282  mismatches=['lesion_present']  elapsed=1456.2s\n"}
+,{"stream_name":"stdout","time":1479.453229569,"data":"  [consistency 213/421] 10278_1000283  mismatches=['lesion_present']  elapsed=1462.0s\n"}
+,{"stream_name":"stdout","time":1485.313457211,"data":"  [consistency 214/421] 10281_1000286  mismatches=['lesion_present']  elapsed=1467.9s\n"}
+,{"stream_name":"stdout","time":1491.164514725,"data":"  [consistency 215/421] 10281_1000287  mismatches=['lesion_present']  elapsed=1473.7s\n"}
+,{"stream_name":"stdout","time":1497.039074627,"data":"  [consistency 216/421] 10285_1000291  mismatches=['lesion_present']  elapsed=1479.6s\n"}
+,{"stream_name":"stdout","time":1502.908035206,"data":"  [consistency 217/421] 10286_1000292  mismatches=['lesion_present']  elapsed=1485.4s\n"}
+,{"stream_name":"stdout","time":1508.98343718,"data":"  [consistency 218/421] 10289_1000295  mismatches=[]  elapsed=1491.5s\n"}
+,{"stream_name":"stdout","time":1512.746370908,"data":"  [consistency 219/421] 10295_1000301  mismatches=['lesion_present']  elapsed=1495.3s\n"}
+,{"stream_name":"stdout","time":1518.854172499,"data":"  [consistency 220/421] 10296_1000302  mismatches=['lesion_present']  elapsed=1501.4s\n"}
+,{"stream_name":"stdout","time":1522.69866962,"data":"  [consistency 221/421] 10299_1000305  mismatches=['lesion_present']  elapsed=1505.2s\n"}
+,{"stream_name":"stdout","time":1526.674371987,"data":"  [consistency 222/421] 10301_1000307  mismatches=['lesion_present']  elapsed=1509.2s\n"}
+,{"stream_name":"stdout","time":1530.531706809,"data":"  [consistency 223/421] 10302_1000308  mismatches=['lesion_present']  elapsed=1513.1s\n"}
+,{"stream_name":"stdout","time":1534.528594459,"data":"  [consistency 224/421] 10304_1000310  mismatches=['shape']  elapsed=1517.1s\n"}
+,{"stream_name":"stdout","time":1538.307674982,"data":"  [consistency 225/421] 10305_1000311  mismatches=['lesion_present']  elapsed=1520.8s\n"}
+,{"stream_name":"stdout","time":1544.279628844,"data":"  [consistency 226/421] 10307_1000313  mismatches=['lesion_present']  elapsed=1526.8s\n"}
+,{"stream_name":"stdout","time":1548.109448829,"data":"  [consistency 227/421] 10308_1000314  mismatches=['lesion_present']  elapsed=1530.6s\n"}
+,{"stream_name":"stdout","time":1551.89922657,"data":"  [consistency 228/421] 10313_1000319  mismatches=['lesion_present']  elapsed=1534.4s\n"}
+,{"stream_name":"stdout","time":1557.819208865,"data":"  [consistency 229/421] 10315_1000321  mismatches=['lesion_present']  elapsed=1540.4s\n"}
+,{"stream_name":"stdout","time":1561.58657392,"data":"  [consistency 230/421] 10317_1000323  mismatches=['lesion_present']  elapsed=1544.1s\n"}
+,{"stream_name":"stdout","time":1566.661745162,"data":"  [consistency 231/421] 10319_1000325  mismatches=['lesion_present']  elapsed=1549.2s\n"}
+,{"stream_name":"stdout","time":1570.561898131,"data":"  [consistency 232/421] 10320_1000326  mismatches=['lesion_present']  elapsed=1553.1s\n"}
+,{"stream_name":"stdout","time":1576.346396266,"data":"  [consistency 233/421] 10321_1000327  mismatches=['lesion_present']  elapsed=1558.9s\n"}
+,{"stream_name":"stdout","time":1580.093865547,"data":"  [consistency 234/421] 10322_1000328  mismatches=['shape']  elapsed=1562.6s\n"}
+,{"stream_name":"stdout","time":1585.052163436,"data":"  [consistency 235/421] 10328_1000334  mismatches=['lesion_present']  elapsed=1567.6s\n"}
+,{"stream_name":"stdout","time":1590.017034858,"data":"  [consistency 236/421] 10329_1000335  mismatches=['shape']  elapsed=1572.6s\n"}
+,{"stream_name":"stdout","time":1595.771115983,"data":"  [consistency 237/421] 10330_1000336  mismatches=['lesion_present']  elapsed=1578.3s\n"}
+,{"stream_name":"stdout","time":1601.647336891,"data":"  [consistency 238/421] 10331_1000337  mismatches=['lesion_present']  elapsed=1584.2s\n"}
+,{"stream_name":"stdout","time":1605.604779917,"data":"  [consistency 239/421] 10336_1000342  mismatches=['lesion_present']  elapsed=1588.1s\n"}
+,{"stream_name":"stdout","time":1609.500592462,"data":"  [consistency 240/421] 10338_1000344  mismatches=['zone_location']  elapsed=1592.0s\n"}
+,{"stream_name":"stdout","time":1613.454892125,"data":"  [consistency 241/421] 10339_1000345  mismatches=['shape']  elapsed=1596.0s\n"}
+,{"stream_name":"stdout","time":1617.171034884,"data":"  [consistency 242/421] 10340_1000346  mismatches=['shape']  elapsed=1599.7s\n"}
+,{"stream_name":"stdout","time":1620.967084321,"data":"  [consistency 243/421] 10341_1000347  mismatches=['lesion_present']  elapsed=1603.5s\n"}
+,{"stream_name":"stdout","time":1626.947409803,"data":"  [consistency 244/421] 10342_1000348  mismatches=[]  elapsed=1609.5s\n"}
+,{"stream_name":"stdout","time":1632.760867286,"data":"  [consistency 245/421] 10344_1000350  mismatches=['lesion_present']  elapsed=1615.3s\n"}
+,{"stream_name":"stdout","time":1638.609640351,"data":"  [consistency 246/421] 10349_1000355  mismatches=['lesion_present']  elapsed=1621.1s\n"}
+,{"stream_name":"stdout","time":1642.38188936,"data":"  [consistency 247/421] 10350_1000356  mismatches=['zone_location', 'shape']  elapsed=1624.9s\n"}
+,{"stream_name":"stdout","time":1646.217408394,"data":"  [consistency 248/421] 10353_1000359  mismatches=['lesion_present']  elapsed=1628.8s\n"}
+,{"stream_name":"stdout","time":1649.985497152,"data":"  [consistency 249/421] 10356_1000362  mismatches=['lesion_present']  elapsed=1632.5s\n"}
+,{"stream_name":"stdout","time":1653.865652312,"data":"  [consistency 250/421] 10362_1000368  mismatches=['lesion_present']  elapsed=1636.4s\n"}
+,{"stream_name":"stdout","time":1659.538856891,"data":"  [consistency 251/421] 10363_1000369  mismatches=['lesion_present']  elapsed=1642.1s\n"}
+,{"stream_name":"stdout","time":1663.177133441,"data":"  [consistency 252/421] 10368_1000374  mismatches=['shape']  elapsed=1645.7s\n"}
+,{"stream_name":"stdout","time":1667.897094085,"data":"  [consistency 253/421] 10370_1000376  mismatches=['lesion_present']  elapsed=1650.4s\n"}
+,{"stream_name":"stdout","time":1673.344886541,"data":"  [consistency 254/421] 10372_1000378  mismatches=['zone_location']  elapsed=1655.9s\n"}
+,{"stream_name":"stdout","time":1677.23859888,"data":"  [consistency 255/421] 10373_1000379  mismatches=['lesion_present']  elapsed=1659.8s\n"}
+,{"stream_name":"stdout","time":1681.062622985,"data":"  [consistency 256/421] 10374_1000380  mismatches=['lesion_present']  elapsed=1663.6s\n"}
+,{"stream_name":"stdout","time":1685.003661367,"data":"  [consistency 257/421] 10380_1000386  mismatches=['shape']  elapsed=1667.5s\n"}
+,{"stream_name":"stdout","time":1688.914480155,"data":"  [consistency 258/421] 10381_1000387  mismatches=['lesion_present']  elapsed=1671.5s\n"}
+,{"stream_name":"stdout","time":1692.815804605,"data":"  [consistency 259/421] 10383_1000389  mismatches=['shape']  elapsed=1675.4s\n"}
+,{"stream_name":"stdout","time":1696.653826123,"data":"  [consistency 260/421] 10385_1000391  mismatches=['lesion_present']  elapsed=1679.2s\n"}
+,{"stream_name":"stdout","time":1702.032948231,"data":"  [consistency 261/421] 10387_1000393  mismatches=['lesion_present']  elapsed=1684.6s\n"}
+,{"stream_name":"stdout","time":1707.434444161,"data":"  [consistency 262/421] 10389_1000395  mismatches=['lesion_present']  elapsed=1690.0s\n"}
+,{"stream_name":"stdout","time":1713.420112045,"data":"  [consistency 263/421] 10390_1000396  mismatches=[]  elapsed=1696.0s\n"}
+,{"stream_name":"stdout","time":1719.468317924,"data":"  [consistency 264/421] 10392_1000398  mismatches=['zone_location', 'shape']  elapsed=1702.0s\n"}
+,{"stream_name":"stdout","time":1723.332011683,"data":"  [consistency 265/421] 10398_1000404  mismatches=['shape']  elapsed=1705.9s\n"}
+,{"stream_name":"stdout","time":1727.107754643,"data":"  [consistency 266/421] 10405_1000412  mismatches=['shape']  elapsed=1709.6s\n"}
+,{"stream_name":"stdout","time":1732.856610776,"data":"  [consistency 267/421] 10417_1000424  mismatches=['lesion_present']  elapsed=1715.4s\n"}
+,{"stream_name":"stdout","time":1738.836261113,"data":"  [consistency 268/421] 10417_1000425  mismatches=['lesion_present']  elapsed=1721.4s\n"}
+,{"stream_name":"stdout","time":1742.733287796,"data":"  [consistency 269/421] 10418_1000426  mismatches=['shape']  elapsed=1725.3s\n"}
+,{"stream_name":"stdout","time":1748.637098176,"data":"  [consistency 270/421] 10424_1000432  mismatches=[]  elapsed=1731.2s\n"}
+,{"stream_name":"stdout","time":1754.622577123,"data":"  [consistency 271/421] 10425_1000433  mismatches=['lesion_present']  elapsed=1737.2s\n"}
+,{"stream_name":"stdout","time":1758.459842629,"data":"  [consistency 272/421] 10434_1000442  mismatches=[]  elapsed=1741.0s\n"}
+,{"stream_name":"stdout","time":1764.359448608,"data":"  [consistency 273/421] 10442_1000450  mismatches=[]  elapsed=1746.9s\n"}
+,{"stream_name":"stdout","time":1768.127437545,"data":"  [consistency 274/421] 10451_1000459  mismatches=['shape']  elapsed=1750.7s\n"}
+,{"stream_name":"stdout","time":1771.882830932,"data":"  [consistency 275/421] 10463_1000471  mismatches=['zone_location', 'shape']  elapsed=1754.4s\n"}
+,{"stream_name":"stdout","time":1775.791607289,"data":"  [consistency 276/421] 10473_1000481  mismatches=['shape']  elapsed=1758.3s\n"}
+,{"stream_name":"stdout","time":1779.473119695,"data":"  [consistency 277/421] 10484_1000492  mismatches=['shape']  elapsed=1762.0s\n"}
+,{"stream_name":"stdout","time":1784.920488199,"data":"  [consistency 278/421] 10486_1000494  mismatches=['zone_location', 'shape']  elapsed=1767.5s\n"}
+,{"stream_name":"stdout","time":1791.126522854,"data":"  [consistency 279/421] 10490_1000499  mismatches=[]  elapsed=1773.7s\n"}
+,{"stream_name":"stdout","time":1794.897906517,"data":"  [consistency 280/421] 10503_1000512  mismatches=['shape']  elapsed=1777.4s\n"}
+,{"stream_name":"stdout","time":1800.898106735,"data":"  [consistency 281/421] 10522_1000532  mismatches=[]  elapsed=1783.4s\n"}
+,{"stream_name":"stdout","time":1804.567066745,"data":"  [consistency 282/421] 10523_1000533  mismatches=['shape']  elapsed=1787.1s\n"}
+,{"stream_name":"stdout","time":1810.55082929,"data":"  [consistency 283/421] 10526_1000536  mismatches=['shape']  elapsed=1793.1s\n"}
+,{"stream_name":"stdout","time":1814.463688796,"data":"  [consistency 284/421] 10529_1000539  mismatches=['zone_location', 'shape']  elapsed=1797.0s\n"}
+,{"stream_name":"stdout","time":1818.227752136,"data":"  [consistency 285/421] 10539_1000549  mismatches=['shape']  elapsed=1800.8s\n"}
+,{"stream_name":"stdout","time":1824.272789825,"data":"  [consistency 286/421] 10540_1000551  mismatches=[]  elapsed=1806.8s\n"}
+,{"stream_name":"stdout","time":1830.246185014,"data":"  [consistency 287/421] 10548_1000560  mismatches=['zone_location', 'shape']  elapsed=1812.8s\n"}
+,{"stream_name":"stdout","time":1834.115527459,"data":"  [consistency 288/421] 10558_1000570  mismatches=['zone_location', 'shape']  elapsed=1816.7s\n"}
+,{"stream_name":"stdout","time":1837.878849164,"data":"  [consistency 289/421] 10568_1000580  mismatches=['shape']  elapsed=1820.4s\n"}
+,{"stream_name":"stdout","time":1841.663003421,"data":"  [consistency 290/421] 10570_1000582  mismatches=['shape']  elapsed=1824.2s\n"}
+,{"stream_name":"stdout","time":1847.518428376,"data":"  [consistency 291/421] 10589_1000603  mismatches=[]  elapsed=1830.1s\n"}
+,{"stream_name":"stdout","time":1851.303146916,"data":"  [consistency 292/421] 10604_1000618  mismatches=['shape']  elapsed=1833.8s\n"}
+,{"stream_name":"stdout","time":1855.240507739,"data":"  [consistency 293/421] 10607_1000621  mismatches=['shape']  elapsed=1837.8s\n"}
+,{"stream_name":"stdout","time":1859.063396396,"data":"  [consistency 294/421] 10620_1000634  mismatches=['shape']  elapsed=1841.6s\n"}
+,{"stream_name":"stdout","time":1863.516845114,"data":"  [consistency 295/421] 10634_1000650  mismatches=['zone_location', 'shape']  elapsed=1846.1s\n"}
+,{"stream_name":"stdout","time":1867.244883284,"data":"  [consistency 296/421] 10635_1000651  mismatches=['zone_location', 'shape']  elapsed=1849.8s\n"}
+,{"stream_name":"stdout","time":1871.319852321,"data":"  [consistency 297/421] 10637_1000653  mismatches=['zone_location', 'shape']  elapsed=1853.9s\n"}
+,{"stream_name":"stdout","time":1875.22167216,"data":"  [consistency 298/421] 10641_1000657  mismatches=['shape']  elapsed=1857.8s\n"}
+,{"stream_name":"stdout","time":1879.235145435,"data":"  [consistency 299/421] 10665_1000681  mismatches=[]  elapsed=1861.8s\n"}
+,{"stream_name":"stdout","time":1885.09605718,"data":"  [consistency 300/421] 10668_1000684  mismatches=[]  elapsed=1867.6s\n"}
+,{"stream_name":"stdout","time":1891.027465635,"data":"  [consistency 301/421] 10670_1000686  mismatches=[]  elapsed=1873.6s\n"}
+,{"stream_name":"stdout","time":1895.000177445,"data":"  [consistency 302/421] 10688_1000704  mismatches=['zone_location']  elapsed=1877.5s\n"}
+,{"stream_name":"stdout","time":1898.774602564,"data":"  [consistency 303/421] 10699_1000715  mismatches=['shape']  elapsed=1881.3s\n"}
+,{"stream_name":"stdout","time":1902.689636017,"data":"  [consistency 304/421] 10700_1000716  mismatches=['shape']  elapsed=1885.2s\n"}
+,{"stream_name":"stdout","time":1906.492216964,"data":"  [consistency 305/421] 10707_1000723  mismatches=['shape']  elapsed=1889.0s\n"}
+,{"stream_name":"stdout","time":1910.318247514,"data":"  [consistency 306/421] 10721_1000737  mismatches=['zone_location', 'shape']  elapsed=1892.9s\n"}
+,{"stream_name":"stdout","time":1914.145056555,"data":"  [consistency 307/421] 10726_1000742  mismatches=['zone_location', 'shape']  elapsed=1896.7s\n"}
+,{"stream_name":"stdout","time":1919.624786179,"data":"  [consistency 308/421] 10728_1000744  mismatches=['zone_location']  elapsed=1902.2s\n"}
+,{"stream_name":"stdout","time":1923.375362691,"data":"  [consistency 309/421] 10730_1000746  mismatches=['shape']  elapsed=1905.9s\n"}
+,{"stream_name":"stdout","time":1929.171802795,"data":"  [consistency 310/421] 10743_1000759  mismatches=[]  elapsed=1911.7s\n"}
+,{"stream_name":"stdout","time":1933.126367213,"data":"  [consistency 311/421] 10777_1000793  mismatches=['zone_location', 'shape']  elapsed=1915.7s\n"}
+,{"stream_name":"stdout","time":1938.584258466,"data":"  [consistency 312/421] 10798_1000814  mismatches=[]  elapsed=1921.1s\n"}
+,{"stream_name":"stdout","time":1942.30459513,"data":"  [consistency 313/421] 10804_1000820  mismatches=['zone_location', 'shape']  elapsed=1924.8s\n"}
+,{"stream_name":"stdout","time":1948.510601013,"data":"  [consistency 314/421] 10807_1000823  mismatches=['zone_location']  elapsed=1931.0s\n"}
+,{"stream_name":"stdout","time":1954.353026275,"data":"  [consistency 315/421] 10808_1000824  mismatches=['zone_location']  elapsed=1936.9s\n"}
+,{"stream_name":"stdout","time":1958.369512847,"data":"  [consistency 316/421] 10825_1000841  mismatches=['zone_location']  elapsed=1940.9s\n"}
+,{"stream_name":"stdout","time":1962.12553701,"data":"  [consistency 317/421] 10833_1000849  mismatches=['shape']  elapsed=1944.7s\n"}
+,{"stream_name":"stdout","time":1965.920460592,"data":"  [consistency 318/421] 10834_1000850  mismatches=['shape']  elapsed=1948.5s\n"}
+,{"stream_name":"stdout","time":1969.821332063,"data":"  [consistency 319/421] 10836_1000852  mismatches=['shape']  elapsed=1952.4s\n"}
+,{"stream_name":"stdout","time":1973.587535994,"data":"  [consistency 320/421] 10839_1000855  mismatches=['zone_location', 'shape']  elapsed=1956.1s\n"}
+,{"stream_name":"stdout","time":1978.972945135,"data":"  [consistency 321/421] 10842_1000858  mismatches=[]  elapsed=1961.5s\n"}
+,{"stream_name":"stdout","time":1985.106687924,"data":"  [consistency 322/421] 10867_1000883  mismatches=[]  elapsed=1967.6s\n"}
+,{"stream_name":"stdout","time":1988.911742204,"data":"  [consistency 323/421] 10868_1000884  mismatches=['zone_location', 'shape']  elapsed=1971.5s\n"}
+,{"stream_name":"stdout","time":1992.775476375,"data":"  [consistency 324/421] 10872_1000888  mismatches=['shape']  elapsed=1975.3s\n"}
+,{"stream_name":"stdout","time":1996.596593449,"data":"  [consistency 325/421] 10880_1000896  mismatches=['zone_location', 'shape']  elapsed=1979.1s\n"}
+,{"stream_name":"stdout","time":2002.627903218,"data":"  [consistency 326/421] 10885_1000901  mismatches=['zone_location']  elapsed=1985.2s\n"}
+,{"stream_name":"stdout","time":2008.457438776,"data":"  [consistency 327/421] 10888_1000904  mismatches=['zone_location', 'shape']  elapsed=1991.0s\n"}
+,{"stream_name":"stdout","time":2013.863029947,"data":"  [consistency 328/421] 10901_1000917  mismatches=['zone_location']  elapsed=1996.4s\n"}
+,{"stream_name":"stdout","time":2019.642417809,"data":"  [consistency 329/421] 10910_1000927  mismatches=['zone_location']  elapsed=2002.2s\n"}
+,{"stream_name":"stdout","time":2023.484742811,"data":"  [consistency 330/421] 10911_1000928  mismatches=['zone_location', 'shape']  elapsed=2006.0s\n"}
+,{"stream_name":"stdout","time":2029.410393402,"data":"  [consistency 331/421] 10915_1000932  mismatches=['zone_location', 'shape']  elapsed=2011.9s\n"}
+,{"stream_name":"stdout","time":2033.28159394,"data":"  [consistency 332/421] 10920_1000937  mismatches=['zone_location', 'shape']  elapsed=2015.8s\n"}
+,{"stream_name":"stdout","time":2039.209414515,"data":"  [consistency 333/421] 10921_1000938  mismatches=['shape']  elapsed=2021.7s\n"}
+,{"stream_name":"stdout","time":2045.226363984,"data":"  [consistency 334/421] 10925_1000942  mismatches=[]  elapsed=2027.8s\n"}
+,{"stream_name":"stdout","time":2050.997414982,"data":"  [consistency 335/421] 10932_1000949  mismatches=['zone_location', 'shape']  elapsed=2033.5s\n"}
+,{"stream_name":"stdout","time":2056.444177955,"data":"  [consistency 336/421] 10938_1000957  mismatches=[]  elapsed=2039.0s\n"}
+,{"stream_name":"stdout","time":2060.099538579,"data":"  [consistency 337/421] 10942_1000961  mismatches=['shape']  elapsed=2042.6s\n"}
+,{"stream_name":"stdout","time":2065.557913298,"data":"  [consistency 338/421] 10948_1000967  mismatches=['zone_location']  elapsed=2048.1s\n"}
+,{"stream_name":"stdout","time":2069.339718924,"data":"  [consistency 339/421] 10953_1000972  mismatches=['shape']  elapsed=2051.9s\n"}
+,{"stream_name":"stdout","time":2073.124888225,"data":"  [consistency 340/421] 10957_1000976  mismatches=['shape']  elapsed=2055.7s\n"}
+,{"stream_name":"stdout","time":2076.987808652,"data":"  [consistency 341/421] 10961_1000980  mismatches=['zone_location', 'shape']  elapsed=2059.5s\n"}
+,{"stream_name":"stdout","time":2080.680629393,"data":"  [consistency 342/421] 10964_1000983  mismatches=['zone_location', 'shape']  elapsed=2063.2s\n"}
+,{"stream_name":"stdout","time":2084.577533624,"data":"  [consistency 343/421] 10968_1000987  mismatches=['shape']  elapsed=2067.1s\n"}
+,{"stream_name":"stdout","time":2089.96525454,"data":"  [consistency 344/421] 10970_1000989  mismatches=['zone_location']  elapsed=2072.5s\n"}
+,{"stream_name":"stdout","time":2093.870248576,"data":"  [consistency 345/421] 10975_1000994  mismatches=['zone_location', 'shape']  elapsed=2076.4s\n"}
+,{"stream_name":"stdout","time":2097.581051228,"data":"  [consistency 346/421] 10985_1001004  mismatches=[]  elapsed=2080.1s\n"}
+,{"stream_name":"stdout","time":2101.45617216,"data":"  [consistency 347/421] 11002_1001021  mismatches=['shape']  elapsed=2084.0s\n"}
+,{"stream_name":"stdout","time":2105.647913966,"data":"  [consistency 348/421] 11032_1001052  mismatches=['shape']  elapsed=2088.2s\n"}
+,{"stream_name":"stdout","time":2111.713201608,"data":"  [consistency 349/421] 11039_1001059  mismatches=[]  elapsed=2094.3s\n"}
+,{"stream_name":"stdout","time":2116.535062593,"data":"  [consistency 350/421] 11041_1001061  mismatches=['zone_location', 'shape']  elapsed=2099.1s\n"}
+,{"stream_name":"stdout","time":2120.583507264,"data":"  [consistency 351/421] 11049_1001069  mismatches=['zone_location', 'shape']  elapsed=2103.1s\n"}
+,{"stream_name":"stdout","time":2124.355853219,"data":"  [consistency 352/421] 11063_1001085  mismatches=['shape']  elapsed=2106.9s\n"}
+,{"stream_name":"stdout","time":2128.300825414,"data":"  [consistency 353/421] 11068_1001090  mismatches=['zone_location', 'shape']  elapsed=2110.8s\n"}
+,{"stream_name":"stdout","time":2131.921538029,"data":"  [consistency 354/421] 11074_1001096  mismatches=['zone_location', 'shape']  elapsed=2114.5s\n"}
+,{"stream_name":"stdout","time":2135.635466316,"data":"  [consistency 355/421] 11076_1001098  mismatches=['shape']  elapsed=2118.2s\n"}
+,{"stream_name":"stdout","time":2139.3383726,"data":"  [consistency 356/421] 11080_1001102  mismatches=['shape']  elapsed=2121.9s\n"}
+,{"stream_name":"stdout","time":2142.999935895,"data":"  [consistency 357/421] 11086_1001108  mismatches=['shape']  elapsed=2125.5s\n"}
+,{"stream_name":"stdout","time":2148.857298112,"data":"  [consistency 358/421] 11100_1001123  mismatches=[]  elapsed=2131.4s\n"}
+,{"stream_name":"stdout","time":2152.659420743,"data":"  [consistency 359/421] 11102_1001125  mismatches=['zone_location', 'shape']  elapsed=2135.2s\n"}
+,{"stream_name":"stdout","time":2157.635245981,"data":"  [consistency 360/421] 11114_1001137  mismatches=['zone_location']  elapsed=2140.2s\n"}
+,{"stream_name":"stdout","time":2161.337355651,"data":"  [consistency 361/421] 11122_1001145  mismatches=['shape']  elapsed=2143.9s\n"}
+,{"stream_name":"stdout","time":2165.313754912,"data":"  [consistency 362/421] 11130_1001153  mismatches=['zone_location']  elapsed=2147.9s\n"}
+,{"stream_name":"stdout","time":2169.277202092,"data":"  [consistency 363/421] 11137_1001160  mismatches=['zone_location', 'shape']  elapsed=2151.8s\n"}
+,{"stream_name":"stdout","time":2173.069901814,"data":"  [consistency 364/421] 11149_1001172  mismatches=['zone_location', 'shape']  elapsed=2155.6s\n"}
+,{"stream_name":"stdout","time":2179.177898982,"data":"  [consistency 365/421] 11152_1001175  mismatches=['zone_location']  elapsed=2161.7s\n"}
+,{"stream_name":"stdout","time":2184.181752613,"data":"  [consistency 366/421] 11154_1001177  mismatches=['zone_location', 'shape']  elapsed=2166.7s\n"}
+,{"stream_name":"stdout","time":2187.83845724,"data":"  [consistency 367/421] 11155_1001178  mismatches=['zone_location', 'shape']  elapsed=2170.4s\n"}
+,{"stream_name":"stdout","time":2191.829920452,"data":"  [consistency 368/421] 11162_1001185  mismatches=[]  elapsed=2174.4s\n"}
+,{"stream_name":"stdout","time":2195.632968518,"data":"  [consistency 369/421] 11163_1001186  mismatches=['shape']  elapsed=2178.2s\n"}
+,{"stream_name":"stdout","time":2199.400927226,"data":"  [consistency 370/421] 11165_1001188  mismatches=['shape']  elapsed=2181.9s\n"}
+,{"stream_name":"stdout","time":2204.738745902,"data":"  [consistency 371/421] 11168_1001191  mismatches=['zone_location', 'shape']  elapsed=2187.3s\n"}
+,{"stream_name":"stdout","time":2210.620790746,"data":"  [consistency 372/421] 11174_1001197  mismatches=[]  elapsed=2193.2s\n"}
+,{"stream_name":"stdout","time":2216.586687716,"data":"  [consistency 373/421] 11177_1001200  mismatches=['zone_location']  elapsed=2199.1s\n"}
+,{"stream_name":"stdout","time":2220.30754477,"data":"  [consistency 374/421] 11181_1001204  mismatches=['zone_location', 'shape']  elapsed=2202.8s\n"}
+,{"stream_name":"stdout","time":2225.095439029,"data":"  [consistency 375/421] 11185_1001208  mismatches=['zone_location']  elapsed=2207.6s\n"}
+,{"stream_name":"stdout","time":2228.994696799,"data":"  [consistency 376/421] 11186_1001209  mismatches=['shape']  elapsed=2211.5s\n"}
+,{"stream_name":"stdout","time":2234.98530286,"data":"  [consistency 377/421] 11188_1001211  mismatches=[]  elapsed=2217.5s\n"}
+,{"stream_name":"stdout","time":2238.643308681,"data":"  [consistency 378/421] 11190_1001213  mismatches=['shape']  elapsed=2221.2s\n"}
+,{"stream_name":"stdout","time":2242.70047088,"data":"  [consistency 379/421] 11194_1001217  mismatches=['shape']  elapsed=2225.2s\n"}
+,{"stream_name":"stdout","time":2246.56295538,"data":"  [consistency 380/421] 11198_1001221  mismatches=['zone_location', 'shape']  elapsed=2229.1s\n"}
+,{"stream_name":"stdout","time":2252.457640296,"data":"  [consistency 381/421] 11208_1001231  mismatches=[]  elapsed=2235.0s\n"}
+,{"stream_name":"stdout","time":2256.13154742,"data":"  [consistency 382/421] 11225_1001248  mismatches=['shape']  elapsed=2238.7s\n"}
+,{"stream_name":"stdout","time":2259.806837886,"data":"  [consistency 383/421] 11231_1001254  mismatches=['zone_location', 'shape']  elapsed=2242.3s\n"}
+,{"stream_name":"stdout","time":2265.376076855,"data":"  [consistency 384/421] 11236_1001259  mismatches=['zone_location']  elapsed=2247.9s\n"}
+,{"stream_name":"stdout","time":2269.112074158,"data":"  [consistency 385/421] 11247_1001270  mismatches=['zone_location', 'shape']  elapsed=2251.7s\n"}
+,{"stream_name":"stdout","time":2272.981760161,"data":"  [consistency 386/421] 11253_1001276  mismatches=['zone_location', 'shape']  elapsed=2255.5s\n"}
+,{"stream_name":"stdout","time":2276.719298567,"data":"  [consistency 387/421] 11256_1001279  mismatches=[]  elapsed=2259.3s\n"}
+,{"stream_name":"stdout","time":2280.585418704,"data":"  [consistency 388/421] 11257_1001280  mismatches=['zone_location', 'shape']  elapsed=2263.1s\n"}
+,{"stream_name":"stdout","time":2286.496646592,"data":"  [consistency 389/421] 11260_1001283  mismatches=[]  elapsed=2269.0s\n"}
+,{"stream_name":"stdout","time":2290.289843681,"data":"  [consistency 390/421] 11269_1001292  mismatches=['shape']  elapsed=2272.8s\n"}
+,{"stream_name":"stdout","time":2294.286123094,"data":"  [consistency 391/421] 11278_1001301  mismatches=['shape']  elapsed=2276.8s\n"}
+,{"stream_name":"stdout","time":2299.151076474,"data":"  [consistency 392/421] 11280_1001303  mismatches=['zone_location']  elapsed=2281.7s\n"}
+,{"stream_name":"stdout","time":2304.256864632,"data":"  [consistency 393/421] 11284_1001307  mismatches=['zone_location', 'shape']  elapsed=2286.8s\n"}
+,{"stream_name":"stdout","time":2308.990343346,"data":"  [consistency 394/421] 11299_1001322  mismatches=[]  elapsed=2291.5s\n"}
+,{"stream_name":"stdout","time":2312.862571696,"data":"  [consistency 395/421] 11300_1001323  mismatches=['shape']  elapsed=2295.4s\n"}
+,{"stream_name":"stdout","time":2318.287318193,"data":"  [consistency 396/421] 11305_1001328  mismatches=['zone_location']  elapsed=2300.8s\n"}
+,{"stream_name":"stdout","time":2324.084544076,"data":"  [consistency 397/421] 11306_1001329  mismatches=['zone_location']  elapsed=2306.6s\n"}
+,{"stream_name":"stdout","time":2327.94913557,"data":"  [consistency 398/421] 11325_1001348  mismatches=['shape']  elapsed=2310.5s\n"}
+,{"stream_name":"stdout","time":2332.193429431,"data":"  [consistency 399/421] 11330_1001353  mismatches=['shape']  elapsed=2314.7s\n"}
+,{"stream_name":"stdout","time":2336.169308396,"data":"  [consistency 400/421] 11338_1001361  mismatches=['shape']  elapsed=2318.7s\n"}
+,{"stream_name":"stdout","time":2340.16584818,"data":"  [consistency 401/421] 11345_1001368  mismatches=['shape']  elapsed=2322.7s\n"}
+,{"stream_name":"stdout","time":2344.642235173,"data":"  [consistency 402/421] 11357_1001380  mismatches=['zone_location', 'shape']  elapsed=2327.2s\n"}
+,{"stream_name":"stdout","time":2348.686755064,"data":"  [consistency 403/421] 11361_1001384  mismatches=['shape']  elapsed=2331.2s\n"}
+,{"stream_name":"stdout","time":2352.376824795,"data":"  [consistency 404/421] 11373_1001396  mismatches=['zone_location', 'shape']  elapsed=2334.9s\n"}
+,{"stream_name":"stdout","time":2356.064483448,"data":"  [consistency 405/421] 11375_1001398  mismatches=['shape']  elapsed=2338.6s\n"}
+,{"stream_name":"stdout","time":2359.976547459,"data":"  [consistency 406/421] 11377_1001400  mismatches=[]  elapsed=2342.5s\n"}
+,{"stream_name":"stdout","time":2363.89659631,"data":"  [consistency 407/421] 11382_1001405  mismatches=['shape']  elapsed=2346.4s\n"}
+,{"stream_name":"stdout","time":2367.808558201,"data":"  [consistency 408/421] 11384_1001408  mismatches=['shape']  elapsed=2350.3s\n"}
+,{"stream_name":"stdout","time":2373.778406046,"data":"  [consistency 409/421] 11385_1001409  mismatches=['zone_location']  elapsed=2356.3s\n"}
+,{"stream_name":"stdout","time":2377.798959068,"data":"  [consistency 410/421] 11397_1001421  mismatches=['zone_location']  elapsed=2360.3s\n"}
+,{"stream_name":"stdout","time":2381.657463242,"data":"  [consistency 411/421] 11423_1001447  mismatches=['zone_location']  elapsed=2364.2s\n"}
+,{"stream_name":"stdout","time":2385.402639437,"data":"  [consistency 412/421] 11428_1001452  mismatches=['shape']  elapsed=2367.9s\n"}
+,{"stream_name":"stdout","time":2389.071023819,"data":"  [consistency 413/421] 11441_1001465  mismatches=['shape']  elapsed=2371.6s\n"}
+,{"stream_name":"stdout","time":2392.855941157,"data":"  [consistency 414/421] 11444_1001468  mismatches=['zone_location', 'shape']  elapsed=2375.4s\n"}
+,{"stream_name":"stdout","time":2398.215886174,"data":"  [consistency 415/421] 11446_1001470  mismatches=[]  elapsed=2380.8s\n"}
+,{"stream_name":"stdout","time":2402.953508036,"data":"  [consistency 416/421] 11447_1001471  mismatches=['shape']  elapsed=2385.5s\n"}
+,{"stream_name":"stdout","time":2406.849843958,"data":"  [consistency 417/421] 11448_1001472  mismatches=['shape']  elapsed=2389.4s\n"}
+,{"stream_name":"stdout","time":2412.712265986,"data":"  [consistency 418/421] 11450_1001474  mismatches=['shape']  elapsed=2395.3s\n"}
+,{"stream_name":"stdout","time":2416.573681742,"data":"  [consistency 419/421] 11462_1001486  mismatches=['zone_location', 'shape']  elapsed=2399.1s\n"}
+,{"stream_name":"stdout","time":2420.225340151,"data":"  [consistency 420/421] 11471_1001495  mismatches=['shape']  elapsed=2402.8s\n"}
+,{"stream_name":"stdout","time":2424.032143984,"data":"  [consistency 421/421] 11475_1001499  mismatches=['zone_location', 'shape']  elapsed=2406.6s\n"}
+,{"stream_name":"stdout","time":2424.032419535,"data":"CONSISTENCY DONE: {'n_cases': 421, 'n_any_mismatch': 386, 'mismatch_rate': 0.9168646080760094, 'n_lesion_present_mismatch': 220, 'n_zone_mismatch': 85, 'n_shape_mismatch': 138}\n"}
+,{"stream_name":"stdout","time":2424.0391109,"data":"\n"}
+,{"stream_name":"stdout","time":2424.039130584,"data":"All done. Total elapsed: 2406.6s. Results in /kaggle/working\n"}
+,{"stream_name":"stderr","time":2428.239190994,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2428.239261603,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2428.471169524,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2428.471213033,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2429.056158551,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2430.294757971,"data":"[NbConvertApp] Writing 426334 bytes to __results__.html\n"}
+]

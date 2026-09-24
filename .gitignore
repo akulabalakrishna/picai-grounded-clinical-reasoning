@@ -1,0 +1,29 @@
+# Imaging data -- too large for GitHub, hosted on Kaggle instead (see README.md)
+/data/images/
+/data/labels/
+/data/sanity_check_overlays/
+
+# Packaged dataset zip -- too large for GitHub, same content as the Kaggle dataset
+/kaggle/picai_sample_421cases.zip
+
+# Credentials -- never commit these if they ever appear
+kaggle.json
+.kaggle/
+*.env
+.env*
+.netrc
+*.pem
+*.key
+*credential*
+*secret*
+id_rsa
+id_rsa.pub
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db

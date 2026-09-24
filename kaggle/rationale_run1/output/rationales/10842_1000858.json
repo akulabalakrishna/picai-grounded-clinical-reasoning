@@ -1,0 +1,29 @@
+{
+  "case_id": "10842_1000858",
+  "lesion_present": true,
+  "marksheet_pirads": "5",
+  "lesion_volume_mm3": 18335.7,
+  "lesion_volume_cc": 18.336,
+  "zone_location": "mixed",
+  "zone_pz_fraction": 0.501,
+  "zone_tz_fraction": 0.499,
+  "t2w_intensity_zscore": -0.776,
+  "shape_sphericity": 0.478,
+  "extraprostatic_extension": false,
+  "frac_lesion_outside_gland": 0.09,
+  "predicted_pirads": 3,
+  "rationale_text": "Case 10842_1000858: a 18.34 cc lesion in the gland (PZ/TZ boundary) is moderately hypointense on T2W (z=-0.78 relative to same-zone background tissue) with irregular, ill-defined (sphericity=0.48) margins. These measurements are consistent with PI-RADS category 3.",
+  "defect_check": {
+    "gland_voxels": 276933,
+    "lesion_voxels": 101149,
+    "frac_lesion_in_gland": 0.91,
+    "centroid_distance_mm": 9.9,
+    "gland_equiv_radius_mm": 22.9,
+    "checks": {
+      "gland_nonempty": true,
+      "lesion_matches_label": true,
+      "lesion_mostly_in_gland": true,
+      "lesion_centroid_near_gland": true
+    }
+  }
+}

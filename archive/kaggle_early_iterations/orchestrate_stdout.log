@@ -1,0 +1,47 @@
+[2026-09-07 16:39:48] Run 1 already exists, status=akulabalakrishna143/picai-strict-201pos-220neg-training-run-1 has status "KernelWorkerStatus.ERROR" -- resuming monitoring instead of re-pushing.
+[2026-09-07 16:39:48] Downloading output for akulabalakrishna143/picai-strict-201pos-220neg-training-run-1 to E:\Cancer_IITH\picai\kaggle_kernel\run1\output ...
+[2026-09-07 16:39:50] output stdout: Kernel log downloaded to E:\Cancer_IITH\picai\kaggle_kernel\run1\output\picai-strict-201pos-220neg-training-run-1.log
+[2026-09-07 16:39:50] Downloaded log: E:\Cancer_IITH\picai\kaggle_kernel\run1\output\picai-strict-201pos-220neg-training-run-1.log (10604 chars)
+[2026-09-07 16:39:50] Run 1: GPU assigned is incompatible with Kaggle's installed PyTorch build (retry 1/4) -- a GPU-assignment lottery issue, not a script bug (dataset/label/split loading all succeeded before the crash). Pushing a fresh kernel to get reassigned.
+[2026-09-07 16:39:50] Pushing run 2 (kernel_sources=[])...
+[2026-09-07 16:39:53] push stdout: Your kernel title does not resolve to the specified id. This may result in surprising behavior. We suggest making your title something that resolves to the specified id. See https://en.wikipedia.org/wiki/Clean_URL#Slug for more information on how slugs are determined.
+Kernel version 1 successfully pushed.  Please check progress at https://www.kaggle.com/code/akulabalakrishna143/picai-strict-training-run-2
+[2026-09-07 16:39:53] Resolved actual kernel slug: akulabalakrishna143/picai-strict-training-run-2
+[2026-09-07 16:39:54] status: akulabalakrishna143/picai-strict-training-run-2 has status "KernelWorkerStatus.RUNNING"
+[2026-09-07 16:42:25] status: akulabalakrishna143/picai-strict-training-run-2 has status "KernelWorkerStatus.ERROR"
+[2026-09-07 16:42:25] Downloading output for akulabalakrishna143/picai-strict-training-run-2 to E:\Cancer_IITH\picai\kaggle_kernel\run2\output ...
+[2026-09-07 16:42:27] output stdout: Kernel log downloaded to E:\Cancer_IITH\picai\kaggle_kernel\run2\output\picai-strict-training-run-2.log
+[2026-09-07 16:42:27] Downloaded log: E:\Cancer_IITH\picai\kaggle_kernel\run2\output\picai-strict-training-run-2.log (10612 chars)
+[2026-09-07 16:42:27] Run 2: GPU assigned is incompatible with Kaggle's installed PyTorch build (retry 2/4) -- a GPU-assignment lottery issue, not a script bug (dataset/label/split loading all succeeded before the crash). Pushing a fresh kernel to get reassigned.
+[2026-09-07 16:42:27] Pushing run 3 (kernel_sources=[])...
+[2026-09-07 16:42:30] push stdout: Your kernel title does not resolve to the specified id. This may result in surprising behavior. We suggest making your title something that resolves to the specified id. See https://en.wikipedia.org/wiki/Clean_URL#Slug for more information on how slugs are determined.
+Kernel version 1 successfully pushed.  Please check progress at https://www.kaggle.com/code/akulabalakrishna143/picai-strict-training-run-3
+[2026-09-07 16:42:30] Resolved actual kernel slug: akulabalakrishna143/picai-strict-training-run-3
+[2026-09-07 16:42:31] status: akulabalakrishna143/picai-strict-training-run-3 has status "KernelWorkerStatus.RUNNING"
+[2026-09-07 16:45:03] status: akulabalakrishna143/picai-strict-training-run-3 has status "KernelWorkerStatus.ERROR"
+[2026-09-07 16:45:03] Downloading output for akulabalakrishna143/picai-strict-training-run-3 to E:\Cancer_IITH\picai\kaggle_kernel\run3\output ...
+[2026-09-07 16:45:04] output stdout: Kernel log downloaded to E:\Cancer_IITH\picai\kaggle_kernel\run3\output\picai-strict-training-run-3.log
+[2026-09-07 16:45:04] Downloaded log: E:\Cancer_IITH\picai\kaggle_kernel\run3\output\picai-strict-training-run-3.log (10609 chars)
+[2026-09-07 16:45:04] Run 3: GPU assigned is incompatible with Kaggle's installed PyTorch build (retry 3/4) -- a GPU-assignment lottery issue, not a script bug (dataset/label/split loading all succeeded before the crash). Pushing a fresh kernel to get reassigned.
+[2026-09-07 16:45:04] Pushing run 4 (kernel_sources=[])...
+[2026-09-07 16:45:07] push stdout: Your kernel title does not resolve to the specified id. This may result in surprising behavior. We suggest making your title something that resolves to the specified id. See https://en.wikipedia.org/wiki/Clean_URL#Slug for more information on how slugs are determined.
+Kernel version 1 successfully pushed.  Please check progress at https://www.kaggle.com/code/akulabalakrishna143/picai-strict-training-run-4
+[2026-09-07 16:45:07] Resolved actual kernel slug: akulabalakrishna143/picai-strict-training-run-4
+[2026-09-07 16:45:08] status: akulabalakrishna143/picai-strict-training-run-4 has status "KernelWorkerStatus.RUNNING"
+[2026-09-07 16:47:40] status: akulabalakrishna143/picai-strict-training-run-4 has status "KernelWorkerStatus.ERROR"
+[2026-09-07 16:47:40] Downloading output for akulabalakrishna143/picai-strict-training-run-4 to E:\Cancer_IITH\picai\kaggle_kernel\run4\output ...
+[2026-09-07 16:47:41] output stdout: Kernel log downloaded to E:\Cancer_IITH\picai\kaggle_kernel\run4\output\picai-strict-training-run-4.log
+[2026-09-07 16:47:41] Downloaded log: E:\Cancer_IITH\picai\kaggle_kernel\run4\output\picai-strict-training-run-4.log (10601 chars)
+[2026-09-07 16:47:41] Run 4: GPU assigned is incompatible with Kaggle's installed PyTorch build (retry 4/4) -- a GPU-assignment lottery issue, not a script bug (dataset/label/split loading all succeeded before the crash). Pushing a fresh kernel to get reassigned.
+[2026-09-07 16:47:41] Pushing run 5 (kernel_sources=[])...
+[2026-09-07 16:47:44] push stdout: Your kernel title does not resolve to the specified id. This may result in surprising behavior. We suggest making your title something that resolves to the specified id. See https://en.wikipedia.org/wiki/Clean_URL#Slug for more information on how slugs are determined.
+Kernel version 1 successfully pushed.  Please check progress at https://www.kaggle.com/code/akulabalakrishna143/picai-strict-training-run-5
+[2026-09-07 16:47:44] Resolved actual kernel slug: akulabalakrishna143/picai-strict-training-run-5
+[2026-09-07 16:47:45] status: akulabalakrishna143/picai-strict-training-run-5 has status "KernelWorkerStatus.QUEUED"
+[2026-09-07 16:50:16] status: akulabalakrishna143/picai-strict-training-run-5 has status "KernelWorkerStatus.ERROR"
+[2026-09-07 16:50:16] Downloading output for akulabalakrishna143/picai-strict-training-run-5 to E:\Cancer_IITH\picai\kaggle_kernel\run5\output ...
+[2026-09-07 16:50:18] output stdout: Kernel log downloaded to E:\Cancer_IITH\picai\kaggle_kernel\run5\output\picai-strict-training-run-5.log
+[2026-09-07 16:50:18] Downloaded log: E:\Cancer_IITH\picai\kaggle_kernel\run5\output\picai-strict-training-run-5.log (10611 chars)
+[2026-09-07 16:50:18] Run 5: GPU assigned is incompatible with Kaggle's installed PyTorch build (retry 5/4) -- a GPU-assignment lottery issue, not a script bug (dataset/label/split loading all succeeded before the crash). Pushing a fresh kernel to get reassigned.
+[2026-09-07 16:50:18] Exceeded max GPU-incompatibility retries. Stopping for manual review.
+[2026-09-07 16:50:18] Wrote final state: {'outcome': 'error_gpu_incompatible_retries_exhausted', 'kernel_slug': 'akulabalakrishna143/picai-strict-training-run-5', 'run_dir': 'E:\\Cancer_IITH\\picai\\kaggle_kernel\\run5', 'log_file': 'E:\\Cancer_IITH\\picai\\kaggle_kernel\\run5\\output\\picai-strict-training-run-5.log', 'final_status': 'akulabalakrishna143/picai-strict-training-run-5 has status "KernelWorkerStatus.ERROR"'}

@@ -1,0 +1,29 @@
+{
+  "case_id": "11357_1001380",
+  "lesion_present": true,
+  "marksheet_pirads": "2",
+  "lesion_volume_mm3": 384.5,
+  "lesion_volume_cc": 0.385,
+  "zone_location": "PZ",
+  "zone_pz_fraction": 1.0,
+  "zone_tz_fraction": 0.0,
+  "t2w_intensity_zscore": -0.159,
+  "shape_sphericity": 0.639,
+  "extraprostatic_extension": true,
+  "frac_lesion_outside_gland": 0.424,
+  "predicted_pirads": 5,
+  "rationale_text": "Case 11357_1001380: a 0.39 cc lesion in the peripheral zone is mildly hypointense/indeterminate on T2W (z=-0.16 relative to same-zone background tissue) with round to oval, more circumscribed (sphericity=0.64) margins. A substantial portion of the lesion falls outside the automated whole-gland segmentation, suggestive of extraprostatic extension (note: the gland mask is AI-derived and not verified at the capsule boundary, so this may partly reflect gland-segmentation imprecision rather than confirmed extension). These measurements are consistent with PI-RADS category 5.",
+  "defect_check": {
+    "gland_voxels": 311109,
+    "lesion_voxels": 1473,
+    "frac_lesion_in_gland": 0.576,
+    "centroid_distance_mm": 27.3,
+    "gland_equiv_radius_mm": 26.9,
+    "checks": {
+      "gland_nonempty": true,
+      "lesion_matches_label": true,
+      "lesion_mostly_in_gland": true,
+      "lesion_centroid_near_gland": true
+    }
+  }
+}

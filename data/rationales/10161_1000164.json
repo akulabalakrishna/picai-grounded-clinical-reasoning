@@ -1,0 +1,29 @@
+{
+  "case_id": "10161_1000164",
+  "lesion_present": false,
+  "marksheet_pirads": "4",
+  "lesion_volume_mm3": 0.0,
+  "lesion_volume_cc": 0.0,
+  "zone_location": "none",
+  "zone_pz_fraction": null,
+  "zone_tz_fraction": null,
+  "t2w_intensity_zscore": null,
+  "shape_sphericity": null,
+  "extraprostatic_extension": false,
+  "frac_lesion_outside_gland": null,
+  "predicted_pirads": 1,
+  "rationale_text": "Case 10161_1000164: no lesion segmented within the prostate gland. No suspicious focus identified; PI-RADS category 1 (routine follow-up).",
+  "defect_check": {
+    "gland_voxels": 29086,
+    "lesion_voxels": 0,
+    "frac_lesion_in_gland": null,
+    "centroid_distance_mm": null,
+    "gland_equiv_radius_mm": 20.1,
+    "checks": {
+      "gland_nonempty": true,
+      "lesion_matches_label": true,
+      "lesion_mostly_in_gland": true,
+      "lesion_centroid_near_gland": true
+    }
+  }
+}

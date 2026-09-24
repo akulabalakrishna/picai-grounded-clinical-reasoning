@@ -1,0 +1,29 @@
+{
+  "case_id": "11256_1001279",
+  "lesion_present": true,
+  "marksheet_pirads": "5",
+  "lesion_volume_mm3": 7174.5,
+  "lesion_volume_cc": 7.174,
+  "zone_location": "TZ",
+  "zone_pz_fraction": 0.015,
+  "zone_tz_fraction": 0.985,
+  "t2w_intensity_zscore": -0.493,
+  "shape_sphericity": 0.592,
+  "extraprostatic_extension": false,
+  "frac_lesion_outside_gland": 0.0,
+  "predicted_pirads": 2,
+  "rationale_text": "Case 11256_1001279: a 7.17 cc lesion in the transition zone is mildly hypointense/indeterminate on T2W (z=-0.49 relative to same-zone background tissue) with irregular, ill-defined (sphericity=0.59) margins. These measurements are consistent with PI-RADS category 2.",
+  "defect_check": {
+    "gland_voxels": 81315,
+    "lesion_voxels": 9566,
+    "frac_lesion_in_gland": 1.0,
+    "centroid_distance_mm": 13.8,
+    "gland_equiv_radius_mm": 24.4,
+    "checks": {
+      "gland_nonempty": true,
+      "lesion_matches_label": true,
+      "lesion_mostly_in_gland": true,
+      "lesion_centroid_near_gland": true
+    }
+  }
+}
